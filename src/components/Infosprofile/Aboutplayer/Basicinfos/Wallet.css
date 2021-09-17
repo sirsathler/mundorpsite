@@ -1,0 +1,49 @@
+.about-player .wallet-player, .wallet, .valor{display: flex; align-items: center;}
+
+.about-player .wallet-player{width: 100%; height: 70%;}
+.about-player .wallet-player .wallet{width: 50%; height: 100%;}
+.about-player .wallet-player .wallet:first-child{justify-content: flex-end; padding-right: 5px;}
+.about-player .wallet-player .wallet:last-child{justify-content: center; padding-left: 5px;}
+
+.about-player .wallet-player .wallet .valor{display: flex; width: 70%; height: 50%; background-color: #f77f00;}
+
+.about-player .wallet-player .wallet .valor .image{width: 15%; height: 100%;}
+.about-player .wallet-player .wallet .valor .image img{position: relative; left: -65px; top: -20px; width: 90px;}
+.about-player .wallet-player .wallet:last-child .valor .image img
+{position: relative; top: 0; left: -35px; width: 60px;}
+
+.about-player .wallet-player .wallet .valor .content-valor{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    font-size: 2.1rem; 
+    color:#fff;
+}
+
+@media screen {
+    @media screen and (max-width: 980px){
+        .about-player .wallet-player .wallet .valor .content-valor,
+        .about-player .wallet-player .wallet .valor .content-valor
+        {padding-left: 10px; font-size: 1.7rem;}
+
+        .about-player .wallet-player .wallet .valor .image img
+        {left: -40px; top: -10px; width: 75px;}
+    }
+
+    @media screen and (max-width: 880px){
+        .about-player .wallet-player .wallet:first-child,
+        .about-player .wallet-player .wallet:last-child
+        {justify-content: center; width: 80%; padding: 0;}
+
+        .about-player .wallet-player .wallet .valor{height: 75%;}
+
+        .about-player .wallet-player .wallet .valor .image img{left: -40px; top: -10px; width: 75px;}
+    }
+    @media screen and (max-width: 520px){
+        .about-player .wallet-player .wallet:first-child,
+        .about-player .wallet-player .wallet:last-child{width:100%}
+    }
+
+
+}

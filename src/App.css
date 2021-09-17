@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+html{
+    /* font-size: 100%; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    vertical-align:baseline;
+    list-style:none;
+    font-family: Bebas Neue;
+    text-decoration: none;
+    user-select: none;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-size: 62.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'Aveline';
+    src: url('../src/fonts/Aveline Script.ttf');
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../src/fonts/BebasNeue-Regular.ttf');
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: 'Billy Ohio';
+    src: url('../src/fonts/BILLY_OHIO.OTF');
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family: 'Urban';
+    src: url('../src/fonts/URBANJUNGLEDEMO.OTF');
 }

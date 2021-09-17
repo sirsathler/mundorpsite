@@ -1,0 +1,13 @@
+footer, .banner-discord{display: flex; align-items: center; justify-content: center;}
+
+footer{width: 100%;}
+
+footer .banner-discord{width: 100%; overflow: hidden;}
+footer .banner-discord img{width: 95%; transition: .2s;}
+footer .animated:hover img{transform: scale(1.08) rotate(1deg);}
+
+@media screen {
+    @media screen and (max-width: 520px) {
+        footer .banner-discord img{width: 100%;}
+    }
+}
