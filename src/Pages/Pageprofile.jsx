@@ -1,8 +1,8 @@
 import css from './Pageprofile.css'
-import Infosprofile from '../Infosprofile/Infosprofile.jsx'
-import Garage from '../Garage/Garage.jsx'
-import Heatmap from '../Heatmap/Heatmap.jsx'
-import Footer from '../Footer/Footer.jsx'
+import Infosprofile from '../components/Infosprofile/Infosprofile.jsx'
+import Garage from '../components/Garage/Garage.jsx'
+import Heatmap from '../components/Heatmap/Heatmap.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 
 function Pageprofile(){
     return(

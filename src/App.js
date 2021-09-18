@@ -1,11 +1,18 @@
 import css from './App.css'
-import Pageprofile from './components/Pageprofile/Pageprofile'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+import Pageprofile from './Pages/Pageprofile'
 
 function App(){
     return(
-        <Pageprofile>
-
-        </Pageprofile>
+        <Router>
+            <div className="App">
+                <Switch> 
+                    <Route path="/" exact/>
+                    <Route path="/player"  component={Pageprofile}/>
+                </Switch>
+            </div>
+        </Router>
     )
 }
 export default App
