@@ -10,7 +10,7 @@ function App(){
         <Router>
             <div className="App">
                 <Header />
-                <Switch> 
+                <Switch>
                     <Route path="/" exact/>
                     <Route path="/player" component={Pageprofile}/>
                     <Route path="/shop" component={Pageshop}/>

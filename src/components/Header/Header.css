@@ -1,8 +1,31 @@
-header, .controller-header{display: flex; align-items: center; justify-content: center;}
+header, .controller-header, .top-header, .bottom-header
+{display: flex; align-items: center; justify-content: center;}
 
 header{width: 100%; height: 300px; background: #1a1a1a;}
 
 .controller-header{width: 100%; height: inherit; flex-direction: column;}
 
-.photo-header{width: 100%; height: 80%;}
-.infos-header{width: 100%; height: 20%; background-color: #242424;}
+.top-header{width: 100%; height: 70%;}
+.photo-header{
+    width: 60%;
+    max-width: 400px;
+    height: 100%;
+    background-image: url("../../images/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottom-header{justify-content: space-between; width: 100%; height: 30%; background-color: #242424;}
+
+.data-points{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.login-header{
+    width: 30%;
+    height: 100%;
+}
