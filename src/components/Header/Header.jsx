@@ -1,5 +1,6 @@
 import css from './Header.css'
 import Points from './Points.jsx'
+import Login from './Login.jsx'
 
 function Header(){
     return(
@@ -11,10 +12,12 @@ function Header(){
                     </div>
                     <div className="bottom-header">
                         <div className="data-points">
-                            <Points />
+                            <Points exchange='mp' />
                             <Points />
                         </div>
-                        <div className="login-header"></div>
+                        <div className="login-header">
+                            <Login />
+                        </div>
                     </div>
                 </div>
             </div>

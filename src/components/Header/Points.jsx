@@ -1,6 +1,6 @@
 import css from './Points.css'
 
-function Points(){
+function Points(props){
     return(
         <div className="points">
             <div className="image-points"></div>

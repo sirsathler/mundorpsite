@@ -1,4 +1,4 @@
-header, .controller-header, .top-header, .bottom-header
+header, .controller-header, .top-header, .bottom-header, .data-points, .login-header
 {display: flex; align-items: center; justify-content: center;}
 
 header{width: 100%; height: 300px; background: #1a1a1a;}
@@ -18,14 +18,5 @@ header{width: 100%; height: 300px; background: #1a1a1a;}
 
 .bottom-header{justify-content: space-between; width: 100%; height: 30%; background-color: #242424;}
 
-.data-points{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-}
-
-.login-header{
-    width: 30%;
-    height: 100%;
-}
+.data-points{width: 35%; height: 100%;}
+.login-header{justify-content: flex-end; width: 25%; height: 100%;}

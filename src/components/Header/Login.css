@@ -1,0 +1,27 @@
+.content-login{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50%;
+    margin-right: 2%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.name-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+.name-login p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.arrow-login{
+    width: 20%;
+    height: 100%;
+}
