@@ -1,8 +1,8 @@
 import css from './App.css'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
-import Pageprofile from './Pages/Pageprofile.jsx'
-import Pageshop from './Pages/Pageshop.jsx'
+import Pageprofile from './components/Pages/Pageprofile/Pageprofile.jsx'
+import Pageshop from './components/Pages/Pageshop/Pageshop.jsx'
 import Header from './components/Header/Header.jsx'
 
 function App(){

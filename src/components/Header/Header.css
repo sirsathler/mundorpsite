@@ -5,6 +5,7 @@ header{width: 100%; height: 300px; background: #1a1a1a;}
 
 .controller-header{width: 100%; height: inherit; flex-direction: column;}
 
+
 .top-header{width: 100%; height: 70%;}
 .photo-header{
     width: 60%;
