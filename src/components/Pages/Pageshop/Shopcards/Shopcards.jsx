@@ -1,9 +1,9 @@
 import css from './Shopcards.css'
-import Cards from './Cards.css'
+import Card from './Card.jsx'
 
 function Shopcards(){
     return(
-        <Cards />
+        <Card />
     )
 }
 export default Shopcards()

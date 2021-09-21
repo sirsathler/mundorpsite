@@ -6,7 +6,9 @@ function Login(){
             <div className="name-login">
                 <p>SouRuim#6666</p>
             </div>
-            <di className="arrow-login"></di>
+            <div className="arrow-login">
+                <span class="material-icons-outlined">arrow_drop_down</span>
+            </div>
         </div>
     )
 }

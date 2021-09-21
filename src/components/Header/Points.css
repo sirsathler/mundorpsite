@@ -1,19 +1,31 @@
+.points, .image-points, .arrow-login{display: flex; justify-content: center;}
+
 .points{
-    display: flex;
     flex-direction: row;
     width: 300px;
     height: 50%;
     margin-left: 2%;
 }
 
-.image-points{
-    width: 30%;
-    height: 100%;
-}
+.image-points{align-items: flex-end; width: 30%; height: 100%;}
+.image-points img{width: 50px; height: auto;}
+
+.arrow-login{align-items: center;}
+.material-icons-outlined{color: white;}
 
 .content-points{ 
     width: 70%;
     height: 100%;
     border-radius: 10px;
     background-color: #333333;
+}
+
+@media screen {
+    @media screen and (max-width: 690px){
+        .points{height: 80%;}
+    }
+
+    @media screen and (max-width: 480px){
+        .points{height: 45%; margin-top: 2px;}
+    }
 }

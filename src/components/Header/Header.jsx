@@ -5,17 +5,17 @@ import Login from './Login.jsx'
 function Header(){
     return(
         <header>
-            <div className="container">
-                <div className="controller-header">
-                    <div className="top-header">
-                        <div className="photo-header"></div>
-                    </div>
-                    <div className="bottom-header">
+            <div className="header-controller">
+                <div className="header-top">
+                    <div className="header-photo"></div>
+                </div>
+                <div className="header-bottom">
+                    <div className="container">
                         <div className="data-points">
-                            <Points exchange='mp' />
+                            <Points exchange='rp' />
                             <Points />
                         </div>
-                        <div className="login-header">
+                        <div className="header-login">
                             <Login />
                         </div>
                     </div>
