@@ -3,7 +3,12 @@ import Card from './Card.jsx'
 
 function Shopcards(){
     return(
-        <Card />
+        <section className='cards-wrapper'>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+        </section>
     )
 }
-export default Shopcards()
+export default Shopcards

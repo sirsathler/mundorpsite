@@ -1,5 +1,5 @@
 import css from './Heatmap.css'
-import Timeline from './Timeline'
+import Timeline from './Timeline.jsx'
 
 function Heatmap(){
     return(

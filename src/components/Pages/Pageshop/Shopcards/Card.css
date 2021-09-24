@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 2300px;
+    height: 240px;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card-image{
+    width: 100%;
+    height: 70%;
+}
+
+.card-infos{
+    text-align: center;
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid grey;
+}
+
+.card-infos p{
+    font-size: 1.3rem;
+}
