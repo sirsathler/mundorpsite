@@ -19,7 +19,12 @@ function Shopfilter(){
                 <Valuefilter />
                 <Valuefilter />
             </div>
-            <div className="filter-bar"></div>
+            <div className="filter-search-bar">
+                <div className="search-bar-wrapper">
+                    <input type="text" placeholder='procurar por produto'/>
+                    <span class="material-icons-outlined">search</span>
+                </div>
+            </div>
         </section>
     )
 }

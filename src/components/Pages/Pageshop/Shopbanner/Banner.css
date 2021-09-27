@@ -3,7 +3,6 @@
 .banner{
     width: 100%;
     height: auto;
-
 }
 
 .banner-image{
@@ -11,6 +10,7 @@
     height: 650px;
     background-image: url('../../../../images/shop/BannerP208.png');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 

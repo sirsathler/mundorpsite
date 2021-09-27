@@ -4,11 +4,9 @@ import carImage from '../../../../images/shop/icons/car.png'
 
 function Typebutton(){
     return(
-        <a href="">
-            <div className="type-content">
-                <img src={carImage} alt="" />
-            </div>
-        </a>
+        <div className="type-content">
+            <img src={carImage} alt="" />
+        </div>
     )
 }
 export default Typebutton

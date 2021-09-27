@@ -7,6 +7,9 @@ function Shopcards(){
             <Card />
             <Card />
             <Card />
+            <Card />
+            <Card />
+            <Card />
         </section>
     )
 }
