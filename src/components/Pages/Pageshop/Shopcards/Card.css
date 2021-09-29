@@ -8,15 +8,12 @@
 .card{
     width: 230px;
     height: 280px;
-    margin: 0 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+    margin: 10px 0; /*essa aqui foi para os cards la no page product, nice*/
+    border-radius: 15px;
+    box-shadow: 0 0 6px 5px #efefef;
 }
 
-.card-image{
-    width: 100%;
-    height: 70%;
-}
+.card-image{width: 100%; height: 70%;}
 .card-image img{width: 220px;}
 
 .card-infos{
@@ -26,11 +23,5 @@
     border-top: 1px solid grey;
 }
 
-.card-infos p:first-child{
-    font-size: 1.3rem;
-    color: green;
-}
-.card-infos p:last-child{
-    font-size: 2.5rem;
-    color: black;
-}
+.card-infos p:first-child{font-size: 1.3rem; color: green;}
+.card-infos p:last-child{font-size: 2.5rem; color: black;}

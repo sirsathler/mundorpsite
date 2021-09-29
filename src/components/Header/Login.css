@@ -11,17 +11,10 @@
 .name-login{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end; /*opera nao reconhece somente com o atributo 'end'*/
     width: 80%;
     height: 100%;
 }
 
-.name-login p{
-    font-size: 1.3rem;
-    color: white;
-}
-
-.arrow-login{
-    width: 20%;
-    height: 100%;
-}
+.name-login p{font-size: 1.3rem; color: white;}
+.arrow-login{width: 20%; height: 100%;}

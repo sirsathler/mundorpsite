@@ -1,9 +1,6 @@
-.banner, .banner-wrapper{display: flex; justify-content: center; align-items: center;}
+.banner{display: flex; justify-content: center; align-items: center;}
 
-.banner{
-    width: 100%;
-    height: auto;
-}
+.banner{width: 100%; height: auto;}
 
 .banner-image{
     width: 100%;
@@ -14,6 +11,8 @@
     background-repeat: no-repeat;
 }
 
+
+/*CLASSES DA BIBLIOTECA REACT-CARROUSEL*/
 .bVibPY{
     /*classe que o margin tava bugado*/
     margin: 0 !important;
@@ -26,7 +25,7 @@
 }
 
 .gQIqMI/**/{
-    /*Classe que o borão esta inativo*/
+    /*Classe que o botão esta inativo*/
     background-color: #b3b3b3 !important;
 }
 
