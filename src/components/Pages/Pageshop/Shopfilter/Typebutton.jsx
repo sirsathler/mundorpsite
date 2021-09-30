@@ -1,11 +1,10 @@
 import css from './Typebutton.css'
-import carImage from '../../../../images/shop/icons/car.png'
 
 
-function Typebutton(){
+function Typebutton(props){
     return(
         <div className="type-content">
-            <img src={carImage} alt="" />
+            <img src={props.image} alt="" />
         </div>
     )
 }

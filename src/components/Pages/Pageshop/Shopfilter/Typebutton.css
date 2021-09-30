@@ -4,11 +4,10 @@
     align-items: center;
     width: 80px;
     height: 80px;
+    cursor: pointer;
     border-radius: 50%;
     background-color: #b3b3b3;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
-.type-content img{
-    width: 45px;
-}
+.type-content img{width: 45px;}

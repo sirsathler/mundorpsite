@@ -5,10 +5,10 @@ function Banner(){
     return(
         <section className='banner'>
             <Carousel showArrows={false}>
-                <div className="banner-image"></div>
-                <div className="banner-image"></div>
-                <div className="banner-image"></div>
-                <div className="banner-image"></div>
+                <a href=""><div className="banner-image"></div></a>
+                <a href=""><div className="banner-image"></div></a>
+                <a href=""><div className="banner-image"></div></a>
+                <a href=""><div className="banner-image"></div></a>
             </Carousel>
         </section>
     )

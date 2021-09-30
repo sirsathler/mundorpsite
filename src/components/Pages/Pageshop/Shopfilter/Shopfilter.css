@@ -30,6 +30,7 @@
     flex-direction: row;
     width: 400px;
     height: 70%;
+    cursor: pointer;
     background-color: #ccc;
     border-radius: 15px;
 }
@@ -52,9 +53,5 @@
     border-radius: 15px;
 }
 
-.search-bar-wrapper .material-icons-outlined{
-    transform: rotate(90deg);
-    font-size: 20px;
-    color: #666666;
-}
+.search-bar-wrapper .material-icons-outlined{transform: rotate(90deg); font-size: 20px; color: #666666;}
 
