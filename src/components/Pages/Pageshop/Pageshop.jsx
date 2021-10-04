@@ -13,7 +13,7 @@ function Pageshop(){
                 <Shopcards />
             </div>
             <Shoppacks />
-            <Shoppacks color = "white"/>
+            <Shoppacks background="white"/>
        </div>
     )
 }

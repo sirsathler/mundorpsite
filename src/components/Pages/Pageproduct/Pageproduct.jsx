@@ -16,7 +16,8 @@ function Pageproduct(){
                 </div>
             </div>
             <div className="product-infos">
-            
+                <div className="color-product"></div>
+                div.product
             </div>
             <div className="products">
                 <div className="container">

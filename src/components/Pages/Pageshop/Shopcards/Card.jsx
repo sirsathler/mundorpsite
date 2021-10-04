@@ -4,7 +4,6 @@ import ares from '../../../../images/shop/cars/Ares7.png'
 import dts from '../../../../images/shop/cars/DTS.png'
 
 function Card(props){
-
     return(
         <a href="">
             <div className='card'>

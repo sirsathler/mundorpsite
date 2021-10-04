@@ -1,21 +1,8 @@
-.shop-packs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.pack-title{
     width: 100%;
-    height: 500px;
-}
-
-.pack-titulo{
-    width: 100%;
-    height: 30%;
+    height: 20%;
     text-align: center;
     margin-top: 75px;
-}
-.pack-titulo h2{
-    font-size: 4rem;
-    color: white;
 }
 
 .pack-cards{
@@ -24,6 +11,5 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: 70%;
-
+    height: 80%;
 }
