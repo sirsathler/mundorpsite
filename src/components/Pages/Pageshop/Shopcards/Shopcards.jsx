@@ -125,7 +125,7 @@ const carList = [
     }
   ]
 
-function Shopcards(){
+export default function Shopcards(){
     return(
         <div className="cards-wrapper">
             {
@@ -136,4 +136,3 @@ function Shopcards(){
         </div>
     )
 }
-export default Shopcards
