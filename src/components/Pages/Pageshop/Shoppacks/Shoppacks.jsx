@@ -1,6 +1,7 @@
 import css from './Shoppacks.css';
 import Card from '../Shopcards/Card';
 import styled from 'styled-components';
+import iconMp from '../../../../images/shop/icons/mp.png'
 
 const Section = styled.section`
     display: flex;
@@ -25,44 +26,100 @@ const Section = styled.section`
         margin: 0 20px;
 
         .card{
+            margin: 0;
             background-color: ${props => props.defaultCard !== false && '#ffffff'};
             box-shadow: ${props => props.defaultCard === false && '0 0 1px 1px #efefef' || '0 0 1px 1px #d5d5d5'};
+
+            .card-image{
+
+                img{max-width: ${props => props.defaultCard !== false && '140px'};}
+            }
 
             .card-infos{
                 width: ${props => props.defaultCard === false && '100%'};
                 background-color: ${props => props.defaultCard === false && '#ffffff'};
                 border-top: none;
-
             }
         }
     }
 `
 
+const premium = [
+    {
+        "id": 1,
+        "description": "1 mês de assinatura premium",
+        "image": "https://imgur.com/yOgB7ZF.png",
+        "mp": 100,
+        "rp": 150
+    },
+    {
+        "id": 2,
+        "description": "3 mês de assinatura premium",
+        "image": "https://imgur.com/Ev7XYYj.png",
+        "mp": 100,
+        "rp": 150
+    },
+    {
+        "id": 3,
+        "description": "6 mês de assinatura premium",
+        "image": "https://imgur.com/SEXXmQi.png",
+        "mp": 100,
+        "rp": 150
+    },
+]
+
+const mp = [
+    {
+        "id": 1,
+        "description": "mês de assinatura premium",
+        "image": "https://imgur.com/iufpDXv.png",
+        "mp": 100,
+        "rp": "R$5,00"
+    },
+    {
+        "id": 2,
+        "description": "mês de assinatura premium",
+        "image": "https://imgur.com/iufpDXv.png",
+        "mp": 300,
+        "rp": "R$5,00"
+    },
+    {
+        "id": 3,
+        "description": "mês de assinatura premium",
+        "image": "https://imgur.com/iufpDXv.png",
+        "mp": 500,
+        "rp": "R$5,00"
+    }
+]
+
 export default function Shoppacks(props){
-    if(props.background !== 'white'){
+    if(props.sectionSelect == 'premium'){
         return(
             <Section defaultCard={false}>
                 <div className="container">
-                    <div className="pack-title"><h2>assine o premium!</h2></div>
+                    <div className="pack-title"><h2>{props.title}</h2></div>
                     <div className="pack-cards">
-                        <Card />
-                        <Card />
-                        <Card />
+                        {
+                            premium.map((card)=>(
+                                <Card image={card.image} name={card.description} price={card.mp}/>
+                            ))
+                        }
                     </div>
                 </div> 
             </Section>
         )
     }return(
-        <Section >
+        <Section>
             <div className="container">
-                <div className="pack-title"><h2>mundopoints</h2></div>
+                <div className="pack-title"><h2>{props.title}</h2></div>
                 <div className="pack-cards">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    {
+                        mp.map((card)=>(
+                            <Card image={card.image} name={card.mp} price={card.rp}/>
+                        ))
+                    }
                 </div>
-            </div>
+            </div> 
         </Section>
     )
 }

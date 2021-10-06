@@ -4,7 +4,7 @@ import Shopcards from './Shopcards/Shopcards.jsx'
 import Shopfilter from './Shopfilter/Shopfilter.jsx'
 import Shoppacks from './Shoppacks/Shoppacks'
 
-function Pageshop(){
+export default function Pageshop(){
     return(
        <div className="page-shop">
             <Banner />
@@ -12,9 +12,8 @@ function Pageshop(){
                 <Shopfilter />
                 <Shopcards />
             </div>
-            <Shoppacks />
-            <Shoppacks background="white"/>
+            <Shoppacks sectionSelect='premium' title='assine o premium!'/>
+            <Shoppacks title='mundopoints'/>
        </div>
     )
 }
-export default Pageshop

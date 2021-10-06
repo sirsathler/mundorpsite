@@ -125,15 +125,14 @@ const carList = [
     }
   ]
 
-function Shopcards(){
+export default function Shopcards(){
     return(
         <div className="cards-wrapper">
             {
                 carList.map((car)=>(
-                    <Card key={car.id} image={car.image} namecar={car.title} price={car.mp}/>
+                    <Card key={car.id} image={car.image} name={car.title} price={car.mp} premium={true}/>
                 ))
             }
         </div>
     )
 }
-export default Shopcards
