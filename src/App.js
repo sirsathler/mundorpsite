@@ -5,6 +5,7 @@ import Header from './components/Header/Header.jsx'
 import Pageprofile from './components/Pages/Pageprofile/Pageprofile.jsx'
 import Pageshop from './components/Pages/Pageshop/Pageshop.jsx'
 import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
+import Footer from './components/Footer/Footer'
 
 function App(){
     return(
@@ -17,6 +18,7 @@ function App(){
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
                 </Switch>
+                <Footer />
             </div>
         </Router>
     )

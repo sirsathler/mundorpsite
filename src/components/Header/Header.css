@@ -24,9 +24,7 @@ header{width: 100%; height: 300px; background: #1a1a1a;}
 .header-login{justify-content: flex-end; width: 25%; height: 100%;}
 
 @media screen {
-    @media screen and (max-width: 980px){.data-points{width: 45%;}}
-
-    @media screen and (max-width: 980px){.data-points{width: 50%;}}
+    @media screen and (max-width: 980px){.data-points{width: 60%;}}
 
     @media screen and (max-width: 690px){
         .header-controller .container{
@@ -34,7 +32,7 @@ header{width: 100%; height: 300px; background: #1a1a1a;}
             justify-content: center;
         }
 
-        .data-points{width: 100%;}
+        .data-points{width: 95%;}
         .header-login{justify-content: center; width: 100%;}
     }
 

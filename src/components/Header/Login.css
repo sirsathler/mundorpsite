@@ -1,17 +1,17 @@
 .content-login{
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 100%;
+    max-width: 150px;
     height: 50%;
-    margin-right: 2%;
+    margin-right: 4%;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 .name-login{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end; /*opera nao reconhece somente com o atributo 'end'*/
     width: 80%;
     height: 100%;
 }

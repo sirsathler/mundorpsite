@@ -11,7 +11,6 @@ function Pageprofile(){
                 <Infosprofile />
                 <Garage />
                 <Heatmap />
-                <Footer />
             </div>
         </div>
     )
