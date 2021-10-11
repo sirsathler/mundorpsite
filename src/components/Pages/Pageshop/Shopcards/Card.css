@@ -26,3 +26,12 @@
 
 .card-infos p:first-child{font-size: 1.3rem; color: green;}
 .card-infos p:last-child{font-size: 2.5rem; color: black;}
+
+@media screen {
+    @media screen and (max-width: 780px){
+        .card{width: 200px; height: 250px;}
+
+        .card-infos p:first-child{font-size: 1.1rem; color: green;}
+        .card-infos p:last-child{font-size: 2.2rem; color: black;}
+    }
+}

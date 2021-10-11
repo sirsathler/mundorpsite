@@ -20,7 +20,7 @@ let iconList = [
     },
     {
         "id": 4,
-        "name": "movel",
+        "name": "furniture",
         "image": "https://imgur.com/sKrKfcz.png"
     },
     {
@@ -55,7 +55,7 @@ function Shopfilter(){
             <div className="filter-type">
                 {
                     iconList.map((icon)=>(
-                        <Typebutton key={icon.id} image={icon.image}/>
+                        <Typebutton key={icon.id} id={icon.name} image={icon.image}/>
                     ))
                 }
             </div>

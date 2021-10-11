@@ -7,12 +7,13 @@
 .banner-image{
     width: 100%;
     height: 650px;
+    /*altura que determina a div tem que ficar aqui por causa da library do react-carousel,
+    que só vai ler o tamanho na ultima filha */
     background-image: url('../../../../images/shop/BannerP208.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 /*CLASSES DA BIBLIOTECA REACT-CARROUSEL*/
 .bVibPY{
@@ -32,7 +33,13 @@
 }
 
 .jJKuoL{
-    /*Classe que o borão esta ativo**/
+    /*Classe que o botão esta ativo**/
     background-color: #666666 !important;
     box-shadow: 0 0 1px 2px #666666 !important;
+}
+
+@media screen {
+    @media screen and (max-width: 1368px){
+        .banner-image{background-size: 100% auto;}
+    }
 }

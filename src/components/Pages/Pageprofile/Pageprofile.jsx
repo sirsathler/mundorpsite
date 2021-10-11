@@ -4,7 +4,7 @@ import Garage from './Garage/Garage.jsx'
 import Heatmap from './Heatmap/Heatmap.jsx'
 import Footer from '../../Footer/Footer.jsx'
 
-function Pageprofile(){
+export default function Pageprofile(){
     return(
         <div className="page-profile">
             <div className="container">
@@ -16,4 +16,3 @@ function Pageprofile(){
         </div>
     )
 }
-export default Pageprofile
