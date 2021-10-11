@@ -12,6 +12,8 @@ const Section = styled.section`
     height: 600px;
     background-color: ${props => props.defaultCard === false && '#1a1a1a;' || '#e6e6e6;'};
 
+    @media screen and (max-width: 720px){height: auto;}   
+
     .pack-title{
 
         h2{
@@ -19,11 +21,16 @@ const Section = styled.section`
             font-size: 3.5rem;
             font-weight: 300;
             color: ${props => props.defaultCard === false && 'white'};
+
+            @media screen and (max-width: 720px){font-size: 2.5rem;}
+            @media screen and (max-width: 390px){font-size: 2rem;} 
+
         }
     }
 
     .pack-cards a{
         margin: 0 20px;
+        @media screen and (max-width: 720px){margin: 10px 20px;}   
 
         .card{
             margin: 0;

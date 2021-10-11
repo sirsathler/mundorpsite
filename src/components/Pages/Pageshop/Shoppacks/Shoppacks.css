@@ -13,3 +13,9 @@
     width: 100%;
     height: 80%;
 }
+
+@media screen {
+    @media screen and (max-width: 720px){
+        .pack-cards{flex-wrap: wrap; margin: 25px 0;}
+    }
+}
