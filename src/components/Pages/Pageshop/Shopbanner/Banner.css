@@ -1,7 +1,6 @@
 .banner{display: flex; justify-content: center; align-items: center;}
 
 .banner{width: 100%; height: auto;}
-
 .banner a{width: 100%;}
 
 .banner-image{
@@ -39,7 +38,10 @@
 }
 
 @media screen {
-    @media screen and (max-width: 1368px){
-        .banner-image{background-size: 100% auto;}
-    }
+    
+    @media screen and (max-width: 1368px){.banner-image{height: 500px;}}
+    @media screen and (max-width: 840px){.banner-image{height: 380px;}}
+    @media screen and (max-width: 620px){.banner-image{height: 200px;}}
+
+    /*nao achei nada melhor ate o momento, talves eu troque de biblioteca no react*/
 }

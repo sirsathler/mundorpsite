@@ -13,10 +13,7 @@
 
 @media screen {
     @media screen and (max-width: 620px){
-        .type-content{
-            width: 65px;
-            height: 65px;
-        }
+        .type-content{width: 65px; height: 65px;}
         .type-content img{width: 30px;}
     }
 }

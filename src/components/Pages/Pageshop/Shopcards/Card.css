@@ -24,14 +24,14 @@
     border-radius: 0 0 15px 15px;
 }
 
-.card-infos p:first-child{font-size: 1.3rem; color: green;}
-.card-infos p:last-child{font-size: 2.5rem; color: black;}
+.card-infos p:first-child{font-size: 1.8rem; color: black;}
+.card-infos p:last-child{font-size: 2.5rem; color: #a18f2a;}
 
 @media screen {
     @media screen and (max-width: 780px){
         .card{width: 200px; height: 250px;}
 
-        .card-infos p:first-child{font-size: 1.1rem; color: green;}
-        .card-infos p:last-child{font-size: 2.2rem; color: black;}
+        .card-infos p:first-child{font-size: 1.5rem;}
+        .card-infos p:last-child{font-size: 2.2rem;}
     }
 }

@@ -24,13 +24,12 @@ const Section = styled.section`
 
             @media screen and (max-width: 720px){font-size: 2.5rem;}
             @media screen and (max-width: 390px){font-size: 2rem;} 
-
         }
     }
 
     .pack-cards a{
         margin: 0 20px;
-        @media screen and (max-width: 720px){margin: 10px 20px;}   
+        @media screen and (max-width: 720px){margin: 10px 20px;}
 
         .card{
             margin: 0;
@@ -46,6 +45,17 @@ const Section = styled.section`
                 width: ${props => props.defaultCard === false && '100%'};
                 background-color: ${props => props.defaultCard === false && '#ffffff'};
                 border-top: none;
+
+                p{
+                    :first-child{
+                        font-size: ${props => props.defaultCard === false && '1.2rem' || '1.8rem'};
+                        color: ${props => props.defaultCard === false && 'black'|| '#a18f2a'};
+                    }
+                    :last-child{
+                        font-size: 2rem;
+                        color: ${props => props.defaultCard === false && '#a18f2a' || 'black'};
+                    }
+                }
             }
         }
     }

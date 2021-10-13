@@ -1,8 +1,8 @@
 import css from './Valuefilter.css'
 
-function Valuefilter(props){
+export default function Valuefilter(props){
     return(
-        <div className='value-item'>
+        <div className='value-item' id={props.cssId}>
             <div className="value-text">
                 <p>{props.name}</p>
             </div>
@@ -12,4 +12,3 @@ function Valuefilter(props){
         </div>
     )
 }
-export default Valuefilter
