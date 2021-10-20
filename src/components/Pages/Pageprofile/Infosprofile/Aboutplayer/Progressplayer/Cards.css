@@ -21,15 +21,15 @@
     background-repeat: no-repeat;
 }
 
-#level-player .card-image .image-content{background-image: url("../../../../images/icons/lvl.png"); background-size: 30%}
-#xp-player .card-image .image-content{background-image: url("../../../../images/icons/xp.png"); background-size: 40%}
-#job-player .card-image .image-content{background-image: url("../../../../images/icons/job.png"); background-size: 50%}
-#jail-player .card-image .image-content{background-image: url("../../../../images/icons/jail.png"); background-size: 35%}
+#level-player .card-image .image-content{background-image: url("../../../../../../images/icons/lvl.png"); background-size: 30%}
+#xp-player .card-image .image-content{background-image: url("../../../../../../images/icons/xp.png"); background-size: 40%}
+#job-player .card-image .image-content{background-image: url("../../../../../../images/icons/job.png"); background-size: 50%}
+#jail-player .card-image .image-content{background-image: url("../../../../../../images/icons/jail.png"); background-size: 35%}
 
 .progress-player .progress-cards .card-player .card-text p{
     display: flex; 
     justify-content: center;
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
     color: white;
 }
 
@@ -37,16 +37,14 @@
     width: 92%;
     height: 100%;
     margin: 0 auto; /*não acredito que isso funcionou*/
-    background-image: url("../../../../images/icons/premium.png");
+    background-image: url("../../../../../../images/icons/premium.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 @media screen {
-    @media screen and (max-width: 880px){
-        .progress-player .progress-cards .card-player{width: 90px; height: 90px;}
-    }
+    @media screen and (max-width: 880px){.progress-player .progress-cards .card-player{width: 90px; height: 90px;}}
     
     @media screen and (max-width: 520px){
         .progress-player .progress-cards .card-player{ width: 110px; height: 90px;}

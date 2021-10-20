@@ -1,5 +1,5 @@
 import css from './Timeline.css'
-import image from '../../images/icons/marker.png'
+import image from '../../../../images/icons/marker.png'
 
 function Timeline(props){
     if(props.image == 'icon'){

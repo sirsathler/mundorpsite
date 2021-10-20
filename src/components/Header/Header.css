@@ -1,0 +1,46 @@
+header, .header-controller, .header-top, .header-bottom, .data-points, .header-login
+{display: flex; align-items: center; justify-content: center;}
+
+header{width: 100%; height: 300px; background: #1a1a1a;}
+
+.header-controller{width: 100%; height: inherit; flex-direction: column;}
+
+.header-controller .container{flex-direction: row; justify-content: space-between; height: 100%;}
+
+.header-top{width: 100%; height: 70%;}
+.header-photo{
+    width: 60%;
+    max-width: 400px;
+    height: 100%;
+    background-image: url("../../images/logo-minimalist.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-bottom{justify-content: center; width: 100%; height: 30%; background-color: #242424;}
+
+.data-points{width: 35%; height: 100%;}
+.header-login{justify-content: flex-end; width: 25%; height: 100%;}
+
+@media screen {
+    @media screen and (max-width: 980px){.data-points{width: 45%;}}
+
+    @media screen and (max-width: 980px){.data-points{width: 50%;}}
+
+    @media screen and (max-width: 690px){
+        .header-controller .container{
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .data-points{width: 100%;}
+        .header-login{justify-content: center; width: 100%;}
+    }
+
+    @media screen and (max-width: 480px){
+        .header-top{height: 50%;}
+        .header-bottom{height: 50%;}
+        .data-points{flex-direction: column;}
+    }
+}

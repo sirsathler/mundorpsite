@@ -33,9 +33,8 @@
 .vehicles .vehicles-wrapper .grid-vehicle{width: 300px; height: 300px; border: 2px solid white;}
 
 @media screen {
-    @media screen and (max-width: 980px){
-        .vehicles .vehicles-wrapper{grid-template-columns: 200px;}
-    }
+    @media screen and (max-width: 980px)
+    {.vehicles .vehicles-wrapper{grid-template-columns: 200px;}}
 
     @media screen and (max-width: 690px){
         .vehicles .vehicles-wrapper{

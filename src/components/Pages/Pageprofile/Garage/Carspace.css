@@ -1,7 +1,7 @@
 .vehicles .vehicles-wrapper .grid-vehicle .image-car{
     width: 100%;
     height: 70%;
-    background-image: url("../../images/icons/shop.png");
+    background-image: url("../../../../images/icons/shop.png");
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,11 +25,6 @@
         .vehicles .vehicles-wrapper .grid-vehicle{width: 200px; height: 200px;}
     }
 
-    @media screen and (max-width: 690px){
-        .vehicles .vehicles-wrapper .grid-vehicle{width: 220px; height: 220px;}
-    }
-
-    @media screen and (max-width: 520px){
-        .vehicles .vehicles-wrapper .grid-vehicle{width: 250px; height: 250px;}
-    }
+    @media screen and (max-width: 690px){.vehicles .vehicles-wrapper .grid-vehicle{width: 220px; height: 220px;}}
+    @media screen and (max-width: 520px){.vehicles .vehicles-wrapper .grid-vehicle{width: 250px; height: 250px;}}
 }

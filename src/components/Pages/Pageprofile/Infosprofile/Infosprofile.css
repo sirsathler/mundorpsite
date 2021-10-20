@@ -17,14 +17,13 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    border: 1px solid white;
     border-radius: 100px;
 }
 
 .infos-profile .photo-profile .photo-player .photo-content{
     width: 100%;
     height: 100%;
-    background-image: url("../../images/icons/profile.png");
+    background-image: url("../../../../images/icons/profile.png");
     background-size: cover;
 }
 

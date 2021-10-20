@@ -1,6 +1,6 @@
 import css from './Carspace.css'
 
-function Carspace(props){
+export default function Carspace(props){
     return(
         <div id={'vehicle'+props.id} className="grid-vehicle">
             <div className="image-car"></div>
@@ -11,4 +11,3 @@ function Carspace(props){
         </div>
     )
 }
-export default Carspace

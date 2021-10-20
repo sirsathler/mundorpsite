@@ -1,0 +1,20 @@
+.value-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.value-text{width: 80%;text-align: center;}
+.value-text p{font-size: 0.9rem;}
+
+.value-icon{width: 20%;}
+.value-icon .material-icons-outlined{color: black !important;}
+
+@media screen {
+    @media screen and (max-width: 460px){.value-item{margin: 0 10px;}}
+}

@@ -1,0 +1,14 @@
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+
+@media screen {
+    @media screen and (max-width: 780px){.cards-wrapper{grid-template-columns: repeat(2, auto);}}
+    @media screen and (max-width: 468px){.cards-wrapper{grid-template-columns: repeat(1, auto);}}
+}

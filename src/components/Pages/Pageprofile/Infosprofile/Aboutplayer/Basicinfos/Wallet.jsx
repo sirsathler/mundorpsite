@@ -1,6 +1,6 @@
 import css from './Wallet.css'
-import imagemp from '../../../../images/icons/mp-icon.png'
-import imagerp from '../../../../images/icons/rp-icon.png'
+import imagemp from '../../../../../../images/icons/mp-icon.png'
+import imagerp from '../../../../../../images/icons/rp-icon.png'
 
 function Wallet(props){
     if(props.exchange == 'mp'){
