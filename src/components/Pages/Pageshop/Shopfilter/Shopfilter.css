@@ -1,4 +1,4 @@
-.shop-filter, .filter-type, .filter-value, .filter-search-bar, .search-bar-wrapper, .search-bar-wrapper span
+.shop-filter, .filter-search-bar, .search-bar-wrapper, .search-bar-wrapper span
 {display: flex; flex-direction: column; justify-content: center; align-items: center;}
 
 .shop-filter{
@@ -8,27 +8,42 @@
     margin-top: 25px; /*rs*/
 }
 
+#home{grid-area: home;}
+#car{grid-area: car;}
+#clots{grid-area: clots;}
+#furniture{grid-area: furniture;}
+#guns{grid-area: guns;}
+
 .filter-type{
-    flex-direction: row; 
-    justify-content: space-around; 
+    display: grid;
+    grid-template-areas:"home car clots furniture guns";
+    justify-content: center;
+    gap: 0 15px;
     width: 100%;
     height: 55%;
-    padding: 0 25%;
 }
+
+#premium{grid-area: premium;}
+#price-min{grid-area: price-min}
+#price-max{grid-area: price-max}
+#currency{grid-area: currency}
 
 .filter-value{
+    display: grid;
+    grid-template-areas: "premium price-min price-max currency";
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: center; 
     width: 100%; 
-    height: 15%; 
-    padding: 0 25%;
+    height: 15%;
+    gap: 0 30px;
 }
 
-.filter-search-bar{justify-content: flex-end; width: 100%; height: 30%;}
+.filter-search-bar{justify-content: flex-end; width: 100%; height: 30%;padding: 0 2%; }
 
 .search-bar-wrapper{
     flex-direction: row;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 70%;
     cursor: pointer;
     background-color: #ccc;
@@ -55,3 +70,31 @@
 
 .search-bar-wrapper .material-icons-outlined{transform: rotate(90deg); font-size: 20px; color: #666666;}
 
+@media screen {
+    @media screen and (max-width: 620px){
+        .filter-value{gap: 0 15px;}
+    }
+
+    @media screen and (max-width: 460px){
+        .shop-filter{height: 300px;}
+        .filter-type{
+            grid-template-areas:"home car clots" 
+                                "furniture none guns";
+            gap: 0 15px;
+            height: 50%;
+        }
+
+        .filter-value{
+            grid-template-areas: "premium price-min"
+                                 "price-max currency";
+            gap: 15px 0;
+            height: 30%;
+        }
+
+        .filter-search-bar{height: 20%;}
+    }
+
+    @media screen and (max-width: 320px){
+        .search-bar-wrapper input::placeholder{font-size: 16px;}
+    }
+}

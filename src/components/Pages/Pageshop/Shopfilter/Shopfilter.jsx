@@ -20,7 +20,7 @@ let iconList = [
     },
     {
         "id": 4,
-        "name": "movel",
+        "name": "furniture",
         "image": "https://imgur.com/sKrKfcz.png"
     },
     {
@@ -33,19 +33,23 @@ let iconList = [
 let nameFilter = [
     {
         "id": 1,
-        "name" : "premium"
+        "name" : "premium",
+        "cssId": "premium"
     },
     {
         "id": 2,
-        "name" : "preço Min"
+        "name" : "preço Min",
+        "cssId": "price-min"
     },
     {
         "id": 3,
-        "name" : "preco Max"
+        "name" : "preço Max",
+        "cssId": "price-max"
     },
     {
         "id": 4,
-        "name" : "moeda"
+        "name" : "moeda",
+        "cssId": "currency"
     }
 ]
 
@@ -55,14 +59,14 @@ function Shopfilter(){
             <div className="filter-type">
                 {
                     iconList.map((icon)=>(
-                        <Typebutton key={icon.id} image={icon.image}/>
+                        <Typebutton key={icon.id} id={icon.name} image={icon.image}/>
                     ))
                 }
             </div>
             <div className="filter-value">
                 {
                     nameFilter.map((type)=>(
-                        <Valuefilter key={type.id} name={type.name}/>
+                        <Valuefilter key={type.id} name={type.name} cssId={type.cssId}/>
                     ))
                 }
             </div>

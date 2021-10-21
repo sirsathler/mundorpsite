@@ -1,6 +1,6 @@
 import css from './Carspace.css'
 
-function Carspace(props){
+export default function Carspace(props){
     return(
         <a href="">
             <div id={'vehicle'+props.id} className="grid-vehicle">
@@ -13,4 +13,3 @@ function Carspace(props){
         </a>
     )
 }
-export default Carspace

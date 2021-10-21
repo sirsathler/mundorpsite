@@ -9,5 +9,11 @@
     background-color: #b3b3b3;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
-
 .type-content img{width: 45px;}
+
+@media screen {
+    @media screen and (max-width: 620px){
+        .type-content{width: 65px; height: 65px;}
+        .type-content img{width: 30px;}
+    }
+}

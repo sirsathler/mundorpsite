@@ -14,3 +14,7 @@
 
 .value-icon{width: 20%;}
 .value-icon .material-icons-outlined{color: black !important;}
+
+@media screen {
+    @media screen and (max-width: 460px){.value-item{margin: 0 10px;}}
+}

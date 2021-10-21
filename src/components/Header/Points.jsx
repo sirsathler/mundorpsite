@@ -17,8 +17,8 @@ function Points(props){
             <div className="image-points">
                 <img src={imagemp} alt="" />
             </div>
-        <div className="content-points"></div>
-    </div>
+            <div className="content-points"></div>
+        </div>
     )
 
 }
