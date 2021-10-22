@@ -8,7 +8,7 @@ import image from '../../../images/shop/cars/DTS.png'
 import mp from '../../../images/shop/icons/mp.png'
 
 
-function Pageproduct(){
+export default function Pageproduct(){
     return(
         <section className="page-product">
             <div className="product-banner">
@@ -58,4 +58,3 @@ function Pageproduct(){
         </section>
     )
 }
-export default Pageproduct

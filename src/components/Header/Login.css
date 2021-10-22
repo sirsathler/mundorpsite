@@ -18,3 +18,11 @@
 
 .name-login p{font-size: 1.3rem; color: white;}
 .arrow-login{width: 20%; height: 100%;}
+
+@media screen {
+
+    @media screen and (max-width: 690px){
+        .content-login{margin-right: 0;}
+
+    }
+}

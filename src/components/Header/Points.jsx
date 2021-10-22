@@ -2,7 +2,7 @@ import css from './Points.css'
 import imagerp from '../../images/shop/icons/rp.png'
 import imagemp from '../../images/shop/icons/mp.png'
 
-function Points(props){
+export default function Points(props){
     if(props.exchange == 'rp'){
         return(
             <div className="points">
@@ -20,6 +20,4 @@ function Points(props){
             <div className="content-points"></div>
         </div>
     )
-
 }
-export default Points
