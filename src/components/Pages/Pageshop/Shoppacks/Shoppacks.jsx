@@ -10,7 +10,7 @@ const Section = styled.section`
     flex-direction: column;
     width: 100%;
     height: 600px;
-    background-color: ${props => props.defaultCard === false && '#1a1a1a;' || '#e6e6e6;'};
+    background-color: ${props => props.mpCard === false ? '#1a1a1a;' : '#e6e6e6;'};
 
     @media screen and (max-width: 720px){height: auto;}   
 
@@ -20,7 +20,7 @@ const Section = styled.section`
             font-family: 'Urban';
             font-size: 3.5rem;
             font-weight: 300;
-            color: ${props => props.defaultCard === false && 'white'};
+            color: ${props => props.mpCard === false && 'white'};
 
             @media screen and (max-width: 720px){font-size: 2.5rem;}
             @media screen and (max-width: 390px){font-size: 2rem;} 
@@ -33,27 +33,32 @@ const Section = styled.section`
 
         .card{
             margin: 0;
-            background-color: ${props => props.defaultCard !== false && '#ffffff'};
-            box-shadow: ${props => props.defaultCard === false && '0 0 1px 1px #efefef' || '0 0 1px 1px #d5d5d5'};
+            background-color: ${props => props.mpCard !== false && '#ffffff'};
+            box-shadow: ${props => props.mpCard === false ? '0 0 1px 1px #efefef' : '0 0 1px 1px #d5d5d5'};
+
+            &:hover{
+                border: ${props => props.mpCard === false && 'none'};
+                transform: ${props => props.mpCard === false && `scale(1.1)`};
+            }
 
             .card-image{
 
-                img{max-width: ${props => props.defaultCard !== false && '140px'};}
+                img{max-width: ${props => props.mpCard !== false && '140px'};}
             }
 
             .card-infos{
-                width: ${props => props.defaultCard === false && '100%'};
-                background-color: ${props => props.defaultCard === false && '#ffffff'};
+                width: ${props => props.mpCard === false && '100%'};
+                background-color: ${props => props.mpCard === false && '#ffffff'};
                 border-top: none;
 
                 p{
                     :first-child{
-                        font-size: ${props => props.defaultCard === false && '1.2rem' || '1.8rem'};
-                        color: ${props => props.defaultCard === false && 'black'|| '#a18f2a'};
+                        font-size: ${props => props.mpCard === false && '1.2rem' || '1.8rem'};
+                        color: ${props => props.mpCard === false ? 'black': '#a18f2a'};
                     }
                     :last-child{
                         font-size: 2rem;
-                        color: ${props => props.defaultCard === false && '#a18f2a' || 'black'};
+                        color: ${props => props.mpCard === false ? '#a18f2a' : 'black'};
                     }
                 }
             }
@@ -112,7 +117,7 @@ const mp = [
 export default function Shoppacks(props){
     if(props.sectionSelect == 'premium'){
         return(
-            <Section defaultCard={false}>
+            <Section mpCard={false}>
                 <div className="container">
                     <div className="pack-title"><h2>{props.title}</h2></div>
                     <div className="pack-cards">
