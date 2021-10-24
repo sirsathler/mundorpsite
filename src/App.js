@@ -5,18 +5,22 @@ import Header from './components/Header/Header.jsx'
 import Pageprofile from './components/Pages/Pageprofile/Pageprofile.jsx'
 import Pageshop from './components/Pages/Pageshop/Pageshop.jsx'
 import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
+import Footer from './components/Footer/Footer'
+import Headerstick from './components/Header/Headerstick'
 
 function App(){
     return(
         <Router>
             <div className="App">
                 <Header />
+                <Headerstick />
                 <Switch>
                     <Route path="/" exact/>
                     <Route path="/player" component={Pageprofile}/>
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
                 </Switch>
+                <Footer />
             </div>
         </Router>
     )

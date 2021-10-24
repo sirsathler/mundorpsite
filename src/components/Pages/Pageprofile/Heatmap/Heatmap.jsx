@@ -21,6 +21,8 @@ function Heatmap(){
                         <Timeline image='icon'/>
                         <Timeline image='icon'/>
                         <Timeline image='icon'/>
+                        <Timeline image='icon'/>
+                        <Timeline image='icon'/>
                     </div>
                 </div>
             </div>

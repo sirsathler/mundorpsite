@@ -1,6 +1,6 @@
 import css from './Login.css'
 
-function Login(){
+export default function Login(){
     return(
         <div className="content-login">
             <div className="name-login">
@@ -12,4 +12,3 @@ function Login(){
         </div>
     )
 }
-export default Login
