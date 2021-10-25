@@ -2,6 +2,7 @@ import css from './Banner.css'
 
 import Returnpage from '../Buttons/Returnpage'
 import Options from '../Buttons/Options'
+import Searchbar from '../Buttons/Searchbar'
 
 export default function Banner(){
     return(
@@ -12,10 +13,7 @@ export default function Banner(){
                         <Returnpage />
                     </div>
                     <div className="search-bar-wrapper">
-                        <div className="search-bar">
-                            <input type="text" placeholder='procurar por produto'/>
-                            <span class="material-icons-outlined">search</span>
-                        </div>
+                        <Searchbar />
                     </div>
                     <div className="content-button">
                         <Options />
