@@ -1,4 +1,4 @@
-.shop-filter, .filter-search-bar, .search-bar-wrapper, .search-bar-wrapper span
+.shop-filter, .filter-search-bar, .search-bar, .search-bar span
 {display: flex; flex-direction: column; justify-content: center; align-items: center;}
 
 .shop-filter{
@@ -40,7 +40,7 @@
 
 .filter-search-bar{justify-content: flex-end; width: 100%; height: 30%;padding: 0 2%; }
 
-.search-bar-wrapper{
+.search-bar{
     flex-direction: row;
     width: 100%;
     max-width: 400px;
@@ -50,7 +50,7 @@
     border-radius: 15px;
 }
 
-.search-bar-wrapper input{
+.search-bar input{
     width: 100%;
     height: 100%;
     margin-left: 10px;
@@ -58,9 +58,9 @@
     background-color: #ccc;
     border-radius: 15px;
 }
-.search-bar-wrapper input::placeholder{font-size: 20px; text-align: center;}
+.search-bar input::placeholder{font-size: 20px; text-align: center;}
 
-.search-bar-wrapper span{
+.search-bar span{
     width: 38px;
     height: 35px;
     margin-right: 5px;
@@ -68,7 +68,7 @@
     border-radius: 15px;
 }
 
-.search-bar-wrapper .material-icons-outlined{transform: rotate(90deg); font-size: 20px; color: #666666;}
+.search-bar .material-icons-outlined{transform: rotate(90deg); font-size: 20px; color: #666666;}
 
 @media screen {
     @media screen and (max-width: 620px){
@@ -95,6 +95,6 @@
     }
 
     @media screen and (max-width: 320px){
-        .search-bar-wrapper input::placeholder{font-size: 16px;}
+        .search-bar input::placeholder{font-size: 16px;}
     }
 }

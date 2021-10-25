@@ -7,6 +7,7 @@ import Pageshop from './components/Pages/Pageshop/Pageshop.jsx'
 import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
 import Footer from './components/Footer/Footer'
 import Headerstick from './components/Header/Headerstick'
+import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
 
 function App(){
     return(
@@ -19,6 +20,7 @@ function App(){
                     <Route path="/player" component={Pageprofile}/>
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
+                    <Route path="/vehicle" component={Pagevehicle}/>
                 </Switch>
                 <Footer />
             </div>

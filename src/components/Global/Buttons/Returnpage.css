@@ -1,0 +1,11 @@
+.return-button, .return-button span{display: flex; justify-content: center; align-items: center;}
+
+.return-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.return-button span{font-size: 20px; color: #808080;}
