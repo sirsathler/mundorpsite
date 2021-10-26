@@ -1,16 +1,22 @@
-.banner,.banner .banner-top, .search-bar-wrapper{display: flex; justify-content: center; align-items: center;}
+.banner,.banner .banner-top, .search-bar-wrapper, .banner-center .vehicle-name, .banner-center .vehicle-img, .banner .container .banner-bottom{display: flex; justify-content: center; align-items: center;}
 
-.banner{flex-direction: row; width: 100%; height: 600px; background-color: black;}
-
-.banner .container{}
+.banner{
+    flex-direction: row; 
+    width: 100%; 
+    height: 1050px;
+    background-image: url("../../../images/vehicle/Wallpaper.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .banner .container .banner-top{
     flex-direction: row;
     width: 100%; 
     height: 20%;
-    padding: 5px;
-    background-color: blue;
+    padding: 15px 5px;
 }
+
 .banner .container .banner-top .content-button:first-child{
     justify-content: flex-start;
     align-items: flex-start;
@@ -18,7 +24,7 @@
     height: 100%;
 }
 
-.search-bar-wrapper{width: 80%; height: 100%;}
+.search-bar-wrapper{align-items: flex-end; width: 80%; height: 100%;}
 
 .banner .container .banner-top .content-button:last-child{
     justify-content: flex-end;
@@ -27,5 +33,14 @@
     height: 100%;
 }
 
-.banner .container .banner-center{width: 100%; height: 65%; background-color: white;}
-.banner .container .banner-bottom{width: 100%; height: 15%; background-color: blue;}
+.banner .container .banner-center{align-items: flex-end; width: 100%; height: 65%;}
+.banner .container .banner-center .vehicle-name{width: 100%; height: 25%;}
+
+.banner .container .banner-center .vehicle-name p{font-size: 4.2rem; color: white;}
+.banner .container .banner-center .vehicle-img{width: 100%; height: 60%;}
+.banner .container .banner-center .vehicle-img img{
+    width: 100%;
+    max-width: 700px;
+} 
+
+.banner .container .banner-bottom{justify-content: flex-start; width: 100%; height: 15%;}
