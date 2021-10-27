@@ -6,7 +6,6 @@
     max-width: 400px;
     height: 70%;
     max-height: 45px;
-    cursor: pointer;
     background-color: #ccc;
     border-radius: 15px;
 }
@@ -20,7 +19,6 @@
     border-radius: 15px;
 }
 .search-bar input:hover{border: none;}
-
 .search-bar input::placeholder{font-size: 20px; text-align: center;}
 
 .search-bar span{

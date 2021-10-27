@@ -2,7 +2,7 @@ import css from './Pageproduct.css'
 import Carousel from 'react-elastic-carousel'
 import Card from '../Pageshop/Shopcards/Card.jsx'
 import Productcolor from './Productcolor.jsx'
-import Purchasebutton from './Purchasebutton'
+import Purchase from '../../Global/Buttons/Purchase'
 
 import image from '../../../images/shop/cars/DTS.png'
 import mp from '../../../images/shop/icons/mp.png'
@@ -39,7 +39,7 @@ export default function Pageproduct(){
                         <p>550</p>
                     </div>
                     <div className="content-button">
-                        <Purchasebutton />
+                        <Purchase />
                     </div>
                 </div>
             </div>

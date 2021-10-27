@@ -1,4 +1,4 @@
-input{
+.button-purshase{
     width: 185px;
     height: 60px;
     border-radius: 10px;
@@ -8,6 +8,4 @@ input{
     color: white;
 }
 
-input:hover{
-    border: 2px solid black;
-}
+.button-purshase:hover{border: 2px solid black;}
