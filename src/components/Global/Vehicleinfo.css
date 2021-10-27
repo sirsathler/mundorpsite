@@ -1,19 +1,6 @@
-.vehicle-info, .debts, .debts .debts-overview, .debts-overview .debts-box{
-    display: flex; justify-content: center; align-items: center; flex-direction: column;
+.vehicle-info{
+
 }
 
-.vehicle-info{width: 120px; height: 120px; margin: 0 10px;}
 
-.debts{
-    width: 100%;
-    height: 900px;
-    background-color: rgba(102, 102, 102, 0.432);
-}
 
-.debts .debts-title{width: 100%; height: 20%;}
-.debts .debts-overview{width: 100%; height: 80%;} 
-.debts .debts-overview .debts-box{
-    width: 480px;
-    height: 500px;
-    background-color: #fff;
-}

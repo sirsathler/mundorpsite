@@ -29,7 +29,7 @@ export default function Banner(){
                     </div>
                 </div>
                 <div className="banner-bottom">
-                    <Vehicleinfo />
+                    <Vehicleinfo isPageVehicle={false}/>
                 </div>
             </div>
         </section>
