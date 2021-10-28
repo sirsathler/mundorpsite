@@ -3,6 +3,7 @@ import css from './Pagevehicle.css'
 import Banner from "../../Global/Banner/Banner";
 import Vehicleinfo from "../../Global/Vehicleinfo";
 import Purchase from "../../Global/Buttons/Purchase"
+import Debtdata from './Debtdata';
 
 export default function Pagevehicle(){
     return(
@@ -18,7 +19,12 @@ export default function Pagevehicle(){
                 <div className="debts-title"><p>débitos</p></div>
                 <div className="debts-overview">
                     <div className="debts-box">
-                        <div className="current-debts"></div>
+                        <div className="current-debts">
+                            <Debtdata />
+                            <Debtdata />
+                            <Debtdata />
+                            <Debtdata />
+                        </div>
                         <div className="pay-debts">
                             <Purchase isHundred={true}/>
                         </div>
