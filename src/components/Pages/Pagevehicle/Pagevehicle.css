@@ -1,5 +1,5 @@
 .vehicle-details, .debts, .debts .debts-title, .debts .debts-overview,
-.debts-overview .debts-box, .debts-box .doubts, .current-debts .debt-data, .current-debts .debt-data .debt-name, .current-debts .debt-data .debt-valor
+.debts-overview .debts-box, .debts-box .doubts, .current-debts, .total-debts
 {display: flex; justify-content: center; align-items: center;}
 
 .vehicle-details{width: 100%; margin: 30px 0;}
@@ -14,10 +14,12 @@
 
 .debts .debts-title{width: 100%; height: 20%; margin: 25px 0; }
 .debts .debts-title p{font-size: 5rem; color: #565656;}
-.debts .debts-overview{flex-direction: column; justify-content: flex-start; width: 100%; height: 70%;} 
+.debts .debts-overview{flex-direction: column; justify-content: flex-start; width: 94%; height: 70%;} 
 .debts .debts-overview .debts-box{flex-direction: column; width: 100%; max-width: 480px; height: auto;}
 
 .debts-overview .debts-box .current-debts{
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
     height: auto;
     min-height: 400px;
@@ -25,25 +27,17 @@
     background-color: #fff;
 }
 
-.current-debts .debt-data{
+.total-debts{
     flex-direction: row;
-    width: 100%;
+    width: 80%; 
     height: 60px;
-    padding: 0 10px;
+    border-top: 4px solid #737373;
 }
-
-.current-debts .debt-data .debt-name,
-.current-debts .debt-data .debt-valor
-{width: 50%; height: 100%;}
-
-.current-debts .debt-data .debt-name{justify-content: flex-end;}
-.current-debts .debt-data .debt-name p{font-size: 1.5rem; color: #b9b9b9;}
-.current-debts .debt-data .debt-valor p{font-size: 1.8rem; font-weight: bold; color: #b1555b;}
 
 .debts-overview .debts-box .pay-debts{width: 100%; margin-top: 10px;}
 
 .debts-overview .debts-box .doubts{justify-content: flex-end; width: 100%;}
 .debts-overview .debts-box .doubts p{margin-top: 5px; font-size: 1.2rem; color: #bababa; cursor: pointer;}
 
-.debts .debts-info {width: 100%; height: 10%; margin: 15px 0; text-align: center;}
+.debts .debts-info {width: 92%; height: 10%; margin: 15px 0; text-align: center;}
 .debts .debts-info p{font-size: 1.2rem; color: #bababa;}

@@ -24,6 +24,11 @@ export default function Pagevehicle(){
                             <Debtdata />
                             <Debtdata />
                             <Debtdata />
+                            <Debtdata />
+                            <div className="total-debts">
+                                <div className="debt-name"><p>Total a pagar</p></div>
+                                <div className="debt-valor"><p>-200RP</p></div>
+                            </div>
                         </div>
                         <div className="pay-debts">
                             <Purchase isHundred={true}/>
