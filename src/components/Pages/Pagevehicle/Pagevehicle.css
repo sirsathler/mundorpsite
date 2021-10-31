@@ -2,7 +2,7 @@
 .debts-overview .debts-box, .debts-box .doubts, .current-debts, .total-debts
 {display: flex; justify-content: center; align-items: center;}
 
-.vehicle-details{width: 100%; margin: 30px 0;}
+.vehicle-details{flex-wrap: wrap; width: 100%; margin: 30px 0;}
 
 .debts{
     flex-direction: column;

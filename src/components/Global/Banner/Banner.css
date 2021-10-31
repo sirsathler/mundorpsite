@@ -2,7 +2,7 @@
 
 .banner{
     flex-direction: row; 
-    width: 100%; 
+    width: 100%;
     height: 1050px;
     background-image: url("../../../images/vehicle/Wallpaper.png");
     background-size: cover;
@@ -38,9 +38,19 @@
 
 .banner .container .banner-center .vehicle-name p{font-size: 4.2rem; color: white;}
 .banner .container .banner-center .vehicle-img{width: 100%; height: 60%;}
-.banner .container .banner-center .vehicle-img img{
-    width: 100%;
-    max-width: 700px;
-} 
+.banner .container .banner-center .vehicle-img img{width: 80%; max-width: 700px;} 
 
 .banner .container .banner-bottom{justify-content: flex-start; width: 100%; height: 15%;}
+
+@media screen {
+    @media screen and (max-width: 580px){
+        .banner {height: 880px;}
+    }
+    @media screen and (max-width: 380px){
+        .banner {height: 680px;}
+        .banner .container .banner-top{padding: 10px;}
+        .banner .container .banner-center{height: 55%;}
+        .banner .container .banner-bottom{height: 25%;}
+    }
+
+}

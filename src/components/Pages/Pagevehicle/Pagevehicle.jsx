@@ -7,7 +7,7 @@ import Debtdata from './Debtdata';
 
 export default function Pagevehicle(){
     return(
-        <section>
+        <div>
             <Banner />
             <div className="vehicle-details">
                 <Vehicleinfo isPageVehicle={true} />
@@ -15,7 +15,7 @@ export default function Pagevehicle(){
                 <Vehicleinfo isPageVehicle={true} />
                 <Vehicleinfo isPageVehicle={true} />
             </div>
-            <div className="debts">
+            <section className="debts">
                 <div className="debts-title"><p>débitos</p></div>
                 <div className="debts-overview">
                     <div className="debts-box">
@@ -39,7 +39,7 @@ export default function Pagevehicle(){
                 <div className="debts-info">
                     <p>você nao pode usar o carro se ele estiver com debitos ativos!</p>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     )
 }

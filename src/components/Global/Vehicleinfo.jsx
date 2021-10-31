@@ -10,7 +10,7 @@ const Div = styled.div`
     align-items: center; 
     width: 120px; 
     height: 120px; 
-    margin: 0 10px;
+    margin: 5px;
     border: ${props=> props.isBanner == false ? '1px solid #a4a4a4' : '1px solid #fff'};
     border-radius: ${props=> props.isBanner == false ? '10px' : 'none'};
 
