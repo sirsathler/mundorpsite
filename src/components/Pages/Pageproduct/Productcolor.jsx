@@ -7,9 +7,7 @@ const Boxcolor = styled.div`
     cursor: pointer;
     background-color: black;
 
-    &:hover{
-        border: 2px solid orange;
-    }
+    &:hover{border: 2px solid orange;}
 
 `
 

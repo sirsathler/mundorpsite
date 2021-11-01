@@ -1,7 +1,7 @@
-.banner{display: flex; justify-content: center; align-items: center;}
+.banner-carrousel{display: flex; justify-content: center; align-items: center;}
 
-.banner{width: 100%; height: auto;}
-.banner a{width: 100%;}
+.banner-carrousel{width: 100%; height: auto;}
+.banner-carrousel a{width: 100%;}
 
 .banner-image{
     width: 100%;

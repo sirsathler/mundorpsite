@@ -1,6 +1,6 @@
 import css from './Pageshop.css'
 import Pagination from './Pagination/Pagination'
-import Banner from './Shopbanner/Banner.jsx'
+import Bannercarrousel from './Shopbanner/Bannercarrousel.jsx'
 import Shopcards from './Shopcards/Shopcards.jsx'
 import Shopfilter from './Shopfilter/Shopfilter.jsx'
 import Shoppacks from './Shoppacks/Shoppacks'
@@ -8,7 +8,7 @@ import Shoppacks from './Shoppacks/Shoppacks'
 export default function Pageshop(){
     return(
        <div className="page-shop">
-            <Banner />
+            <Bannercarrousel />
             <div className="container">
                 <Shopfilter />
                 <Shopcards />

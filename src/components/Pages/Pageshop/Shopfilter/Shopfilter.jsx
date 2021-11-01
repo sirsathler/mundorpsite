@@ -1,3 +1,4 @@
+import Searchbar from '../../../Global/Buttons/Searchbar'
 import css from './Shopfilter.css'
 import Typebutton from './Typebutton.jsx'
 import Valuefilter from './Valuefilter.jsx'
@@ -53,7 +54,7 @@ let nameFilter = [
     }
 ]
 
-function Shopfilter(){
+export default function Shopfilter(){
     return(
         <section className='shop-filter'>
             <div className="filter-type">
@@ -71,12 +72,8 @@ function Shopfilter(){
                 }
             </div>
             <div className="filter-search-bar">
-                <div className="search-bar-wrapper">
-                    <input type="text" placeholder='procurar por produto'/>
-                    <span class="material-icons-outlined">search</span>
-                </div>
+                <Searchbar />
             </div>
         </section>
     )
 }
-export default Shopfilter
