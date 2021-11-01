@@ -37,10 +37,10 @@ export default function Vehicleinfo(props){
         return(
             <Div isBanner={false}>
                 <div className="vehicle-info-icon">
-                    <img src={imgIcon} alt="" />
+                    <img src={props.image} alt="" />
                 </div>
                 <div className="vehicle-info-bd">
-                    <p>NaoseioID</p>
+                    <p>{props.info}</p>
                 </div>
             </Div>
         )

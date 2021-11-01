@@ -10,8 +10,9 @@ const Input = styled.input`
     background-color: #009933;
     font-size: 1.7rem;
     color: white;
+    transition: 1s; 
 
-    &:hover{border: 2px solid black;}
+    &:hover{transition: 1s; background-color: #009933b2;}
 
 `
 

@@ -17,6 +17,8 @@
     outline: 0;
     background-color: #ccc;
     border-radius: 15px;
+    text-align: center;
+    font-size: 1.6rem;
 }
 .search-bar input:hover{border: none;}
 .search-bar input::placeholder{font-size: 20px; text-align: center;}
