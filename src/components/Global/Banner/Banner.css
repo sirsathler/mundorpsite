@@ -42,6 +42,20 @@
 
 .banner .container .banner-bottom{justify-content: flex-start; align-items: flex-end; width: 100%; height: 15%;}
 
+
+/*********PAGE PRODUCT*********/
+.page-product .banner{height: 750px;}
+.page-product .banner .banner-top .search-bar-wrapper{display: none;}
+.page-product .banner .banner-top .content-button:first-child{width: 100%;}
+.page-product .banner .banner-top .content-button:last-child{display: none;}
+
+.page-product .banner .banner-center{height: 80%;}
+.page-product .banner .banner-center .vehicle-img{height: 75%;}
+
+.page-product .banner .banner-bottom{display: none;}
+
+
+
 @media screen {
     @media screen and (max-width: 580px){
         .banner {height: 880px;}
