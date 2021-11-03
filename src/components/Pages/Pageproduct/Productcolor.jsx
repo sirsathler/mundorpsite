@@ -5,15 +5,20 @@ const Boxcolor = styled.div`
     height: 50px;
     margin: 5px;
     cursor: pointer;
-    background-color: black;
+    background-color: ${props => props.color};
+    transition: 0.5s;
+    border: 1px solid #00000047;
 
-    &:hover{border: 2px solid orange;}
+    &:hover{
+        transform: rotate(-90deg); 
+        transition: 1s;
+    }
 
 `
 
-export default function Productcolor(){
+export default function Productcolor(props){
     return(
-        <Boxcolor>
+        <Boxcolor color={props.color}>
 
         </Boxcolor>
     )

@@ -4,31 +4,41 @@ import Card from '../Pageshop/Shopcards/Card.jsx'
 import Productcolor from './Productcolor.jsx'
 import Purchase from '../../Global/Buttons/Purchase'
 import Banner from '../../Global/Banner/Banner'
+import Vehicleinfo from '../../Global/Vehicleinfo'
 
 import image from '../../../images/shop/cars/DTS.png'
 import mp from '../../../images/shop/icons/mp.png'
-import Vehicleinfo from '../../Global/Vehicleinfo'
+import imageSpeed from '../../../images/product/speed.png'
+import imageGas from '../../../images/product/gas.png'
 
+//Custom styles for carousel//
+const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+    { width: 850, itemsToShow: 3}
+
+    /*SÓ FUNCIONA ASSIM E EU NAO FAÇO IDEIA DO PQ, ESSES OBJETO AINDA TA TUDO ERRADO, MAS FUNCIONA*/ 
+];
 
 export default function Pageproduct(){
     return(
         <section className="page-product">
-            <Banner />
+            <Banner image={image} />
             <div className="product-infos">
-                <Vehicleinfo isPageVehicle={true}/>
-                <Vehicleinfo isPageVehicle={true}/>
-                <Vehicleinfo isPageVehicle={true}/>
+                <Vehicleinfo isPageVehicle={true} image={imageSpeed} info={'120km/h'}/>
+                <Vehicleinfo isPageVehicle={true} />
+                <Vehicleinfo isPageVehicle={true} image={imageGas} info={'20/110'}/>
             </div>
             <div className="product-sets">
                 <div className="container">
                     <div className="product-color">
                         <h2>Escolha uma cor!</h2>
                         <div className="content-colors">
-                            <Productcolor/>
-                            <Productcolor/>
-                            <Productcolor/>
-                            <Productcolor/>
-                            <Productcolor/>
+                            <Productcolor color={'#242424'}/>
+                            <Productcolor color={'#006092'}/>
+                            <Productcolor color={'#ffffff'}/>
+                            <Productcolor color={'#ff0000'}/>
+                            <Productcolor color={'#006633'}/>
                         </div>
                     </div>
                     <div className="product-price">
@@ -44,7 +54,7 @@ export default function Pageproduct(){
             <div className="products">
                 <p>confira também!</p>
                 <div className="container">
-                    <Carousel itemsToShow={3} pagination={false} >
+                    <Carousel itemsToShow={3} pagination={false} breakPoints={breakPoints}>
                         <Card />
                         <Card />
                         <Card />

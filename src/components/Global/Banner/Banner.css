@@ -44,7 +44,8 @@
 
 
 /*********PAGE PRODUCT*********/
-.page-product .banner{height: 750px;}
+
+.page-product .banner{height: 750px; background-image: url('../../../images/product/banner.png');}
 .page-product .banner .banner-top .search-bar-wrapper{display: none;}
 .page-product .banner .banner-top .content-button:first-child{width: 100%;}
 .page-product .banner .banner-top .content-button:last-child{display: none;}
@@ -54,12 +55,10 @@
 
 .page-product .banner .banner-bottom{display: none;}
 
-
+/*********PAGE PRODUCT*********/
 
 @media screen {
-    @media screen and (max-width: 580px){
-        .banner {height: 880px;}
-    }
+    @media screen and (max-width: 580px){.banner {height: 880px;}}
     @media screen and (max-width: 380px){
         .banner {height: 680px;}
         .banner .container .banner-top{padding: 10px;}
@@ -67,4 +66,8 @@
         .banner .container .banner-bottom{height: 25%;}
     }
 
+    @media screen and (max-width: 420px){
+        /*page product*/
+        .page-product .banner{height: 500px;}
+    }
 }

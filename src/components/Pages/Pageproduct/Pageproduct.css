@@ -1,12 +1,14 @@
 .products, .product-infos,  .product-image, .product-sets, .product-color, .content-colors, .products-sets, .product-price, .content-button, .cashback{display: flex; justify-content: center; align-items: center;}
 
+
 .product-infos{width: 100%; height: auto;background-color: #1c2838}
+.product-infos .vehicle-info-bd p{font-size: 1.2rem; color: #ffffff !important;}
 
-.product-sets{width: 100%; height: 330px;}
+.product-sets{width: 100%; height: 400px;}
 
-.product-sets .product-color{width: 100%; height: 40%; flex-direction: column;}
+.product-sets .product-color{flex-direction: column; width: 100%; height: 40%; margin-top: 40px;}
 .product-sets .product-color h2{font-family: Bebas Neue; font-size: 2rem; font-weight: 300;}
-.product-color .content-colors{width: 100%; height: 100px; flex-direction: row;}
+.product-color .content-colors{flex-wrap: wrap; width: 100%; height: auto; min-height: 100px; flex-direction: row;}
 
 
 /*********************** PRICE ***************************/
@@ -18,13 +20,13 @@
 /*********************** PRICE ***************************/
 .content-button{width: 100%; height: 20%;}
 
-.cashback{width: 95%; height: 10%;margin-top: 50px ; border-bottom: 1px solid #808080;} 
+.cashback{width: 95%; height: 10%; margin-top: 50px ; text-align: center; border-bottom: 1px solid #808080;} 
 .cashback p{font-size: 1rem; color: #808080;}
 
 .products{flex-direction: column; width: 100%; height: 500px;}
 .products p{width: 100%; margin-top: 30px; font-size: 1.7rem; text-align: center;}
 
-.products .container{flex-wrap: wrap; width: 100%; max-width: 1000px;}
+.products .container{flex-wrap: wrap; width: 90%; max-width: 1000px;}
 
 .khvUfi, .eRmJbc{
     width: 25px !important;
@@ -41,7 +43,7 @@
 .eRmJbc{visibility: hidden !important;}
 
 @media screen {
-    @media screen and (max-width: 1024px){
-        
+    @media screen and (max-width: 420px){
+        .page-product .products{height: 400px;}
     }
 }

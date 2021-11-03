@@ -5,6 +5,8 @@ import Vehicleinfo from "../../Global/Vehicleinfo";
 import Purchase from "../../Global/Buttons/Purchase"
 import Debtdata from './Debtdata';
 
+import image from '../../../images/shop/cars/Python.png'
+
 const itemVehicle = [
     {
         "id": 1, 
@@ -31,12 +33,11 @@ const itemVehicle = [
 export default function Pagevehicle(){
     return(
         <div>
-            <Banner />
+            <Banner image={image}/>
             <div className="vehicle-details">
                 {
                     itemVehicle.map((item)=>(
                         <Vehicleinfo isPageVehicle={true} key={item.id} image={item.iconImage} info={item.infoVehicle} />
-                        
                     ))
                 }
             </div>
