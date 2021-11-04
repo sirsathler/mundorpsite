@@ -43,7 +43,9 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom"></div>
+            </div>
+            <div className="footer-bottom">
+                <div className="container"><p>mundoroleplay@2021</p></div>
             </div>
         </footer>
     )

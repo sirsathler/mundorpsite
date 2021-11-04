@@ -1,12 +1,12 @@
 footer, .footer-top, .footer-top .footer-title, .footer-top .social-media, .footer-center{display: flex; flex-direction: column; align-items: center; justify-content: center;}
 
-footer{width: 100%; height: 300px; background-color: #1a1a1a;}
+footer{width: 100%; height: 350px; background-color: #1a1a1a;}
 
 footer .container{flex-direction: column;}
 
-footer .footer-top{flex-direction: row; width: 100%; height: 20%;}
+footer .footer-top{flex-direction: row; width: 94%; height: 30%;}
 
-.footer-top .title{
+.footer-top .footer-title{
     align-items: flex-start;
     justify-content: flex-end;
     width: 50%;
@@ -15,7 +15,7 @@ footer .footer-top{flex-direction: row; width: 100%; height: 20%;}
 
 .footer-top .footer-title h2{
     font-family: 'Urban'; 
-    font-size: 1.9rem; 
+    font-size: 2.2rem; 
     letter-spacing: 2px;
     color: #fff;
 }
@@ -29,24 +29,24 @@ footer .footer-top{flex-direction: row; width: 100%; height: 20%;}
 }
 
 .footer-top .social-media a{margin: 0 5px;}
-.footer-top .social-media img{width: 20px; height: 20px;}
+.footer-top .social-media img{width: 40px; height: 40px;}
 
 footer .footer-center{
     flex-direction: row;
-    width: 100%; 
-    height: 80%;
-    margin-top: 15px;
+    width: 95%; 
+    height: 70%;
+    margin-top: 40px;
 }
+
 
 footer h3{font-size: 1.8rem; font-weight: lighter; color: #fff;}
 
 footer .footer-center .footer-target{
     width: 100%;
-    height: 100%;
+    height: 81%;
     padding-top: 10px;
 }
-footer .footer-center .footer-target a{margin: 5px 0;}
-footer .footer-center .footer-target p{font-size: 1.8rem; color: #5a5a5a;}
+footer .footer-center .footer-target p{margin: 5px 0; font-size: 1.8rem; color: #5a5a5a;}
 
 .footer-center .links-site, 
 .footer-center .comunication,
@@ -54,4 +54,14 @@ footer .footer-center .footer-target p{font-size: 1.8rem; color: #5a5a5a;}
 {width: 33%; height: 100%;}
 
 
-footer .footer-bottom{width: 100%; height: 10%;}
+footer .footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+    height: 20%;
+    border-top: 1px solid #575757;
+}
+
+footer .footer-bottom .container{align-items: flex-start;}
+footer .footer-bottom p{font-size: 1.2rem; color: #ffffff;}
