@@ -132,6 +132,7 @@ export default function Shopcards(){
                 carList.map((car)=>(
                     <Card key={car.id} image={car.image} name={car.title} price={car.mp} premium={true}/>
                 ))
+                
             }
         </div>
     )
