@@ -1,0 +1,30 @@
+.card-news{display: flex; justify-content: center; align-items: center;}
+
+.card-news{
+    flex-direction: column;
+    width: 300px; 
+    height: 230px;
+    border-radius: 10px; 
+    border: 1px solid black;
+}
+
+.card-news .info-news{
+    width: 100%;
+    height: 50%;
+}
+
+.card-news .info-news h3{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-news .info-news p{
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.card-news .image-news{
+    width: 100%;
+    height: 50%;
+}

@@ -8,6 +8,7 @@ import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
 import Footer from './components/Footer/Footer'
 import Headerstick from './components/Header/Headerstick'
 import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
+import PageHome from "./components/Pages/Pagehome/Pagehome"
 
 function App(){
     return(
@@ -16,7 +17,7 @@ function App(){
                 <Header />
                 <Headerstick />
                 <Switch>
-                    <Route path="/" exact/>
+                    <Route path="/" exact component={PageHome}/>
                     <Route path="/player" component={Pageprofile}/>
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
