@@ -1,0 +1,24 @@
+.content-input{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-width: 400px;
+    height: 70%;
+    max-height: 45px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.content-input input{
+    width: 85%;
+    height: 100%;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.content-input span{display:flex; align-items: center; width: 15%;}
+.content-input .material-icons-outlined{font-size: 28px; color: #b4b4b4;}

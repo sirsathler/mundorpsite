@@ -8,11 +8,13 @@ import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
 import Footer from './components/Footer/Footer'
 import Headerstick from './components/Header/Headerstick'
 import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
+import Pagelogin from './components/Pages/Pagelogin/Pagelogin'
 
-function App(){
+export default function App(){
     return(
         <Router>
             <div className="App">
+                <Pagelogin path="/login" component={Pagelogin}/>
                 <Header />
                 <Headerstick />
                 <Switch>
@@ -27,4 +29,3 @@ function App(){
         </Router>
     )
 }
-export default App
