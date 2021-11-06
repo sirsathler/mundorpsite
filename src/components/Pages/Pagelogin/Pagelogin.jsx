@@ -34,6 +34,5 @@ export default function Pagelogin(){
                 <Boxregister step={nextRegister}/>
             </section>
         </div>
-        
     )
 }
