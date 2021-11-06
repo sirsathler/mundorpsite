@@ -14,3 +14,12 @@
     font-size: 2.2rem;
     color: #fff;
 }
+
+.box-register img{width: 80px;}
+.box-register p{text-align: center; font-size: 1.3rem; color: #fff;}
+
+@media screen {
+    @media screen and (max-width: 540px){
+        .box-register{width: 100%;}
+    }
+}

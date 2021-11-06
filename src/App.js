@@ -15,16 +15,7 @@ export default function App(){
         <Router>
             <div className="App">
                 <Pagelogin path="/login" component={Pagelogin}/>
-                <Header />
-                <Headerstick />
-                <Switch>
-                    <Route path="/" exact/>
-                    <Route path="/player" component={Pageprofile}/>
-                    <Route path="/shop" component={Pageshop}/>
-                    <Route path="/product" component={Pageproduct}/>
-                    <Route path="/vehicle" component={Pagevehicle}/>
-                </Switch>
-                <Footer />
+
             </div>
         </Router>
     )
