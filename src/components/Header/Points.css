@@ -2,7 +2,8 @@
 
 .points{
     flex-direction: row;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 50%;
     margin-left: 2%;
 }
@@ -22,7 +23,7 @@
 
 @media screen {
     @media screen and (max-width: 690px){
-        .points{height: 80%;}
+        .points{height: 80%; margin-top: 5px;}
     }
 
     @media screen and (max-width: 480px){

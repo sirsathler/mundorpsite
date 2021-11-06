@@ -1,13 +1,13 @@
 import css from './Footer.css'
-import image from '../../images/sections/discord.png'
+import imageDisc from '../../images/social/discord.png'
 
-function Footer(){
+export default function Footer(){
     return(
-        <footer>
-            <a className="animated banner-discord" href="#">
-                <img src={image} alt=""/>
-            </a>
-        </footer>
+        <a href="">
+            <footer>
+                <img src={imageDisc} alt="" />
+                <p>acesse nosso discord!</p>
+            </footer>
+        </a>
     )
 }
-export default Footer

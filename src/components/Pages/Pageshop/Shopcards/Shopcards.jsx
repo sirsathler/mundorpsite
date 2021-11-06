@@ -1,33 +1,55 @@
 import css from './Shopcards.css'
 import Card from './Card.jsx'
+import Axios from 'axios'
+import React, { useEffect, useState } from 'react'
 
-import { useState } from 'react'
+const apiUrl = process.env.REACT_APP_API_URL
+const apiPort = process.env.REACT_APP_API_PORT
+
+let page = 1;
+let limit = 6;
+
+//http://localhost:4000/shop?page=1&limit=5
 
 export default function Shopcards() {
-  const axios = require('axios').default
+  const [productList, setproductlist] = useState([])
+  
+  useEffect(() => {
+    getProductList()
+  }, [])
+  
+  
+  async function getProductList() {
+    await Axios.get(`http://${apiUrl}:${apiPort}/shop?page=${page}&limit=${limit}`)
+    .then(Response => { setproductlist(Response.data.Produtos) })
+  }
 
-  let [carList, setCarList] = useState([])
-
-  axios.get(`localhost:4000/shop?limit=10&page=1`)
-    .then(function (response) {
-      setCarList(response.data.Produtos)
-      console.log(carList)
-    })
+  function previousPage(){
+    page--
+    getProductList()
+  }
+  
+  function nextPage(){
+    page++
+    getProductList()
+  }
 
   return (
-    <div>
-      <div className="cards-wrapper">
+    <div className="cards-wrapper">
+      <div className="cards-container">
         {
-          carList.map((car) => (
-            <Card key={car.id} image={car.Url} name={car.Name} price={car.Price_mp} premium={true} />
+          productList.map((product) => (
+            <Card key={product.Id} image={product.Image} name={product.Name} price={product.Price} premium={true} />
           ))
         }
       </div>
+
       <div className="pagination">
-        <button><p>Anterior</p></button>
-        <div className='page-now'><p>1</p></div>
-        <button><p>Proximo</p></button>
+        <button onClick={()=>previousPage()}><p>Anterior</p></button>
+        <div className='page-now'><p>{page}</p></div>
+        <button onClick={()=>nextPage()}><p>Proximo</p></button>
       </div>
+
     </div>
   )
 }
