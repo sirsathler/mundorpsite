@@ -8,7 +8,6 @@ import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
 import Footer from './components/Footer/Footer'
 import Headerstick from './components/Header/Headerstick'
 import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
-
 function App(){
     return(
         <Router>

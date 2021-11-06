@@ -12,7 +12,6 @@ export default function Pageshop(){
             <div className="container">
                 <Shopfilter />
                 <Shopcards />
-                <Pagination />
             </div>
             <Shoppacks sectionSelect='premium' title='assine o premium!'/>
             <Shoppacks title='mundopoints'/>
