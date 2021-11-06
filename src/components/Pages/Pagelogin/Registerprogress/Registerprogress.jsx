@@ -2,8 +2,8 @@ import css from './Registerprogress.css'
 import styled from 'styled-components';
 
 const Div = styled.div`
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: ${props=> props.color === 'active' ? '#d93010' : '#fff'};
 `

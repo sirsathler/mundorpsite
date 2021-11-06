@@ -1,7 +1,8 @@
 import css from './Pagelogin.css'
 
-import mundoImage from '../../../images/logo-minimalist.png'
-import seasonImage from '../../../images/season-logo.png'
+// import mundoImage from '../../../images/logo-minimalist.png'
+import mundoImage from '../../../images/logo.png'
+// import seasonImage from '../../../images/season-logo.png'
 import seasonLogoImage from '../../../images/login/season-logo-img.png'
 
 import Inputlogin from '../../Global/Inputs/Inputlogin'
@@ -21,7 +22,7 @@ export default function Pagelogin(){
                     <div className="box-login">
                         <div className="box-images-login">
                             <img src={mundoImage} alt="" />
-                            <img src={seasonImage} alt="" />
+                            {/* <img src={seasonImage} alt="" /> */}
                         </div>
                         <div className="box-input">
                             <Inputlogin type='text' placeholder='E-mail:' icon='person'/>

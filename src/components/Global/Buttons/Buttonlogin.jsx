@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Button = styled.button`
     width: 100%;
-    max-width: 150px;
+    max-width: 180px;
     height: 50px;
     background-color: ${props => props.type == 'login' ? '#3480a8': '#fb340e'};
     font-size: 1.2rem;
