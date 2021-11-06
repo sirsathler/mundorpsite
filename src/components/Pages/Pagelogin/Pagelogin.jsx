@@ -2,6 +2,8 @@ import css from './Pagelogin.css'
 
 import mundoImage from '../../../images/logo-minimalist.png'
 import seasonImage from '../../../images/season-logo.png'
+import seasonLogoImage from '../../../images/login/season-logo-img.png'
+
 import Inputlogin from '../../Global/Inputs/Inputlogin'
 import Boxregister from './Register/Boxregister'
 import Buttonlogin from '../../Global/Buttons/Buttonlogin'
@@ -15,6 +17,7 @@ export default function Pagelogin(){
         <div className='page-login-register'>
             <section className="page-login">
                 <div className="login">
+                    <img className='season-logo-img' src={seasonLogoImage} alt="" />
                     <div className="box-login">
                         <div className="box-images-login">
                             <img src={mundoImage} alt="" />

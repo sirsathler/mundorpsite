@@ -1,7 +1,7 @@
 .content-input{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     max-width: 500px;
     height: 70px;
     margin-bottom: 5px;
@@ -23,6 +23,10 @@
 .content-input .material-icons-outlined{font-size: 35px; color: #b4b4b4;}
 
 @media screen {
+    @media screen and (max-width: 1366px){
+        .content-input{width: 50%; height: 60px;}
+        .content-input .material-icons-outlined{font-size: 30px; }
+    }
     @media screen and (max-width: 540px){
         .content-input{width: 80%;}
     }

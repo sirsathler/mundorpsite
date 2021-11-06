@@ -9,12 +9,21 @@
 }
 
 .page-login .login{
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url('../../../images/login.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 150%;
+}
+
+.login .season-logo-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    margin-right: 20px;
 }
 
 @keyframes gradient {
@@ -26,7 +35,7 @@
 .page-login .login .box-login{width: 100%; max-width: 600px; height: 80%; text-align: center;}
 
 .box-login .box-images-login{width: 100%; height: auto;}
-.box-login .box-images-login img:first-child{width: 95%; max-width: 450px;}
+.box-login .box-images-login img:first-child{width: 95%;}
 .box-login .box-images-login img:last-child{width: 200px;}
 
 .box-login .box-input{flex-direction: column; width: 100%; height: 45%;}
@@ -52,9 +61,19 @@
 }
 
 @media screen {
+    @media screen and (max-width: 1366px){
+        .box-login .box-images-login img:first-child{width: 70%;}
+    }
+
     @media screen and (max-width: 540px){
         .page-login-register .register h2{
             font-size: 1.2rem;
         }
+
+        .login .season-logo-img{right: initial; width: 250px; margin-right: 0;}
+    }
+
+    @media screen and (max-width: 360px){
+        .login .season-logo-img{width: 190px;}
     }
 }
