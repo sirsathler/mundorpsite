@@ -1,8 +1,6 @@
 import css from './Pagelogin.css'
 
-// import mundoImage from '../../../images/logo-minimalist.png'
 import mundoImage from '../../../images/logo.png'
-// import seasonImage from '../../../images/season-logo.png'
 import seasonLogoImage from '../../../images/login/season-logo-img.png'
 
 import Inputlogin from '../../Global/Inputs/Inputlogin'
@@ -10,7 +8,6 @@ import Boxregister from './Register/Boxregister'
 import Buttonlogin from '../../Global/Buttons/Buttonlogin'
 import Registerprogress from './Registerprogress/Registerprogress'
 
-/*para testes*/ 
 let nextRegister = 1
 
 export default function Pagelogin(){
@@ -22,11 +19,10 @@ export default function Pagelogin(){
                     <div className="box-login">
                         <div className="box-images-login">
                             <img src={mundoImage} alt="" />
-                            {/* <img src={seasonImage} alt="" /> */}
                         </div>
                         <div className="box-input">
-                            <Inputlogin type='text' placeholder='E-mail:' icon='person'/>
-                            <Inputlogin type='password' placeholder='Senha:' icon='lock'/>
+                            <Inputlogin type='text' placeholder='E-mail' icon='person'/>
+                            <Inputlogin type='password' placeholder='Senha' icon='lock'/>
                             <Buttonlogin action='entrar'/>
                         </div>
                     </div>

@@ -20,6 +20,9 @@
     font-size: 1.4rem;
 }
 
+/*quando clicar pra digitar, o placeholder some s2 <3 ameiiii*/
+.content-input input:focus::placeholder{color: transparent}
+
 .content-input span{display:flex; align-items: center; width: 15%;}
 .content-input .material-icons-outlined{font-size: 35px; color: #b4b4b4; position: absolute; right: 0; bottom: 25%;}
 
@@ -27,10 +30,11 @@
     @media screen and (max-width: 540px){
         .content-input {height: 50px;}
         .content-input input{width: 100%;}
-        .content-input .material-icons-outlined{display: none;}
-
+        .content-input .material-icons-outlined{display: none;}    
     }
+
     @media screen and (max-width: 350px){
-        .content-input{width: 65%;}
+        .content-input{width: 80%;}
+        .content-input input::placeholder{font-size: 1.1rem;}
     }
 }

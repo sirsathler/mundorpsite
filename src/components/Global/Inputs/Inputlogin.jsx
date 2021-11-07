@@ -1,5 +1,6 @@
 import css from './Inputlogin.css'
 
+
 export default function Inputlogin(props){
     return(
         <div className="content-input">

@@ -35,8 +35,7 @@
 .page-login .login .box-login{width: 100%; max-width: 750px; text-align: center;}
 
 .box-login .box-images-login{width: 100%; height: auto;}
-.box-login .box-images-login img:first-child{width: 95%;}
-/* .box-login .box-images-login img:last-child{width: 350px;} */
+.box-login .box-images-login img{width: 95%;}
 
 .box-login .box-input{flex-direction: column; width: 80%; height: 45%; margin: 60px auto 0;}
 
@@ -61,27 +60,21 @@
 }
 
 @media screen {
-    /* @media screen and (max-width: 1366px){
-        .box-login .box-images-login img:first-child{width: 70%;}
-    } */
-    @media screen and (max-width: 1024px) {
-        .page-login{height: 80vh;}
-    }
+    @media screen and (max-width: 1024px) {.page-login{height: 80vh;}}
+    @media screen and (max-width: 920px){.login .season-logo-img{width: 220px;}}
 
     @media screen and (max-width: 768px) {
         .login .season-logo-img{display: none;}
-        .page-login{height: 55vh;}
-        .box-login .box-input{width: 68%;}
-        .box-login .box-images-login img:first-child{width: 70%;}
+        .page-login{height: 65vh;}
+        .box-login .box-images-login img{width: 70%;}
+        .box-login .box-input{width: 80%;}
     }
 
     @media screen and (max-width: 540px){
-        .page-login-register .register h2{
-            font-size: 1.2rem;
-        }
+        .page-login-register .register h2{font-size: 1.2rem;}
     }
 
-    @media screen and (max-width: 360px){
-        .login .season-logo-img{width: 190px;}
+    @media screen and (max-width: 480px){
+        .box-login .box-input{width: 100%;}
     }
 }
