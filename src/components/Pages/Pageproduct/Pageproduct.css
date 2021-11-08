@@ -28,19 +28,6 @@
 
 .products .container{flex-wrap: wrap; width: 90%; max-width: 1000px;}
 
-.khvUfi, .eRmJbc{
-    width: 25px !important;
-    height: 25px !important;
-    min-width: 0 !important;
-    line-height: 25px !important;
-    font-size: 0.8rem !important;
-}
-
-/*clases referentes as arrows*/
-.khvUfi:hover:enabled, .eRmJbc:hover:enabled,
-.khvUfi:focus:enabled, .eRmJbc:focus:enabled{background-color: rgba(128, 128, 128, 0.452) !important;}
-
-.eRmJbc{visibility: hidden !important;}
 
 @media screen {
     @media screen and (max-width: 420px){

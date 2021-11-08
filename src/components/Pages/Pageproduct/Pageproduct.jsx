@@ -26,7 +26,6 @@ export default function Pageproduct(){
             <Banner image={image} />
             <div className="product-infos">
                 <Vehicleinfo isPageVehicle={true} image={imageSpeed} info={'120km/h'}/>
-                <Vehicleinfo isPageVehicle={true} />
                 <Vehicleinfo isPageVehicle={true} image={imageGas} info={'20/110'}/>
             </div>
             <div className="product-sets">
@@ -34,11 +33,14 @@ export default function Pageproduct(){
                     <div className="product-color">
                         <h2>Escolha uma cor!</h2>
                         <div className="content-colors">
-                            <Productcolor color={'#242424'}/>
-                            <Productcolor color={'#006092'}/>
+                            <Productcolor color={'#ffcc00'}/>
                             <Productcolor color={'#ffffff'}/>
-                            <Productcolor color={'#ff0000'}/>
-                            <Productcolor color={'#006633'}/>
+                            <Productcolor color={'#fe0000'}/>
+                            <Productcolor color={'#6600cd'}/>
+                            <Productcolor color={'#ff7b00'}/>
+                            <Productcolor color={'#006634'}/>
+                            <Productcolor color={'#006092'}/>
+                            <Productcolor color={'#1a1a1a'}/>
                         </div>
                     </div>
                     <div className="product-price">
