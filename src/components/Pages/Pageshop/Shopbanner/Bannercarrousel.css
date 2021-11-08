@@ -1,14 +1,22 @@
 .banner-carrousel{display: flex; justify-content: center; align-items: center;}
 
-.banner-carrousel img{
-
-}
+.banner-carrousel{height: auto;}
 .banner-carrousel a{display: inline-block; width: 100%;}
 
 .kNBmiK, .gcfHef, .icdMYH, .bGztgW{margin: 0  0 10px 0 !important;}
 
+
+/***********PAGE HOME**********/
+.home .kNBmiK, .home .gcfHef, 
+.home .icdMYH, .home .bGztgW
+{margin: 0 !important;}
+
+.home .gpMqYi{top: 95%;}/*classe que movimento as dots*/
+
+.home .qbpMB, .home .eXIdQs{width: 12px; height: 12px;}/*classe que estiliza as dots*/
+.home .eXIdQs{background-color: #236aa8;} /*quando o dot esta ativo*/
+
 @media screen {
-    
     @media screen and (max-width: 768px){
         .jACDzE{
             grid-template-columns: repeat(3,100%) !important;
