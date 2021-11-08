@@ -18,7 +18,7 @@ export default function Home(){
             <div className="news">
                 <div className="container">
                     <h2>ultimas notícias</h2>
-                    <Carousel itemsToShow={3}>
+                    <Carousel itemsToShow={3} >
                         <Cardnews />
                         <Cardnews />
                         <Cardnews />

@@ -29,3 +29,35 @@
     width: 100%;
     height: 50%;
 }
+
+/*CONFIGS ELASTIC CAROUSEL*/
+
+.kDAHyg,.eEojdq{
+    /*estilizando os botoes*/
+    width: 30px; 
+    height: 30px;
+    min-width: 0;
+    line-height: 30px;
+}
+
+.eEojdq:hover:enabled, .eEojdq:focus:enabled{
+    background-color: #ccc;
+    color: #fff;
+    box-shadow: none;
+}
+
+.dGeqsn{
+    background-color: #fff; 
+    box-shadow: 0 0 2px rgb(80, 80, 80);
+}
+
+.jVhXZM{
+    background-color: #ccc;
+    color: #fff;
+    box-shadow: none;
+}
+
+.jVhXZM:hover, .jVhXZM:focus,
+.dGeqsn:hover, .dGeqsn:focus{
+    box-shadow: 0 0 2px 0 #1a1a1a;
+}
