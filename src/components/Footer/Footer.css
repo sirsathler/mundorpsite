@@ -56,8 +56,6 @@ footer .footer-center .footer-target{
 }
 footer .footer-center .footer-target p{margin: 5px 0; font-size: 1.8rem; color: #5a5a5a;}
 
-footer .footer-center .about-us{width: 50%;}
-
 footer .footer-bottom{
     display: flex;
     justify-content: center;
@@ -78,5 +76,6 @@ footer .footer-bottom p{font-size: 1.2rem; color: #ffffff;}
         .footer-top .footer-title{align-items: center; width: 100%;}
         .footer-top .footer-title h2{font-size: 2.8rem;}
         .footer-top .social-media{justify-content: center; width: 100%; margin-top: 10px;}
+        footer .footer-center .about-us{width: 50%;}
     }
 }
