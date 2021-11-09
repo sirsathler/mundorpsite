@@ -11,7 +11,7 @@ export default function Boxregister(props){
         return(
             <div className='box-register'>
                 <h2>criar conta</h2>
-                <Inputlogin type='text' placeholder='usuario' icon='person'/>
+                <Inputlogin type='text' placeholder='usuário' icon='person'/>
                 <Inputlogin type='email' placeholder='Email' icon='email'/>
                 <Inputlogin type='password' placeholder='senha' icon='lock'/>
                 <Inputlogin type='password' placeholder='confirme a senha' icon='lock'/>
