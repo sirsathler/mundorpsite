@@ -24,7 +24,7 @@
 .content-input input:focus::placeholder{color: transparent}
 
 .content-input span{display:flex; align-items: center; width: 15%;}
-.content-input .material-icons-outlined{font-size: 35px; color: #b4b4b4; position: absolute; right: 0; bottom: 25%;}
+.content-input .material-icons-outlined{font-size: 35px; color: #b4b4b4; position: absolute; right: 0; bottom: 20%;}
 
 @media screen {
     @media screen and (max-width: 540px){

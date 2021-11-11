@@ -21,7 +21,7 @@
 .login .season-logo-img{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -1px; /*não me pergunte*/
     width: 300px;
     margin-right: 20px;
 }
