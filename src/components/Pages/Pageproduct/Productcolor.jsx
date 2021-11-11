@@ -31,7 +31,7 @@ function chooseColor(){
 export default function Productcolor(props){
     return(
         <Boxcolor onClick={chooseColor} color={props.color}>
-            <img id='checkColor' src={checkImage} alt="" />
+            {/* <img id='checkColor' src={checkImage} alt="" /> */}
         </Boxcolor>
     )
 }
