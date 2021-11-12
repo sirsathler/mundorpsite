@@ -20,7 +20,7 @@ footer .footer-top{
 
 .footer-top .footer-title h2{
     font-family: 'Urban'; 
-    font-size: 2.2rem; 
+    font-size: 3rem; 
     letter-spacing: 2px;
     color: #fff;
 }
@@ -54,7 +54,12 @@ footer .footer-center .footer-target{
     height: 81%;
     padding-top: 10px;
 }
-footer .footer-center .footer-target p{margin: 5px 0; font-size: 1.8rem; color: #5a5a5a;}
+footer .footer-center .footer-target p{
+    margin: 10px 0;
+    padding: 2px 0; 
+    font-size: 1.8rem; 
+    color: #5a5a5a;
+}
 
 footer .footer-bottom{
     display: flex;
@@ -65,7 +70,7 @@ footer .footer-bottom{
     border-top: 1px solid #575757;
 }
 
-footer .footer-bottom .container{align-items: flex-start; margin: 5px 2%;}
+footer .footer-bottom .container{align-items: flex-start; margin: 15px 2%;}
 footer .footer-bottom p{font-size: 1.2rem; color: #ffffff;}
 
 @media screen {
