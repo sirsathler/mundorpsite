@@ -1,0 +1,28 @@
+.token{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.token h2{text-align: center; color: #fff;}
+
+.token .content-token p{padding: 10px 0; text-align: center; font-size: 1.2rem; color: #d93010;}
+
+.token .content-token .token-inputs {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.token .content-token .token-inputs input{
+    width: 50px; 
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+}

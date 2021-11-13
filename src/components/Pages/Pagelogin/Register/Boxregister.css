@@ -1,0 +1,25 @@
+.box-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 550px;
+    height: 400px;
+}
+
+.box-register h2{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.box-register img{width: 80px;}
+.box-register p{text-align: center; font-size: 1.3rem; color: #fff;}
+
+@media screen {
+    @media screen and (max-width: 540px){
+        .box-register{width: 100%;}
+    }
+}

@@ -1,0 +1,40 @@
+.content-input{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    max-width: 500px;
+    height: 65px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+}
+
+.content-input input{
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/*quando clicar pra digitar, o placeholder some s2 <3 ameiiii*/
+.content-input input:focus::placeholder{color: transparent}
+
+.content-input span{display:flex; align-items: center; width: 15%;}
+.content-input .material-icons-outlined{font-size: 35px; color: #b4b4b4; position: absolute; right: 0; bottom: 20%;}
+
+@media screen {
+    @media screen and (max-width: 540px){
+        .content-input {height: 50px;}
+        .content-input input{width: 100%;}
+        .content-input .material-icons-outlined{display: none;}    
+    }
+
+    @media screen and (max-width: 350px){
+        .content-input{width: 80%;}
+        .content-input input::placeholder{font-size: 1.1rem;}
+    }
+}
