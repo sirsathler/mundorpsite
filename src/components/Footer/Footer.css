@@ -1,12 +1,86 @@
-footer{display: flex; flex-direction: column; align-items: center; justify-content: center;}
+footer, .footer-top, .footer-top .footer-title, .footer-top .social-media, .footer-center{display: flex; flex-direction: column; align-items: center; justify-content: center;}
 
-footer{width: 100%; height: 180px; background-color: #7289da;}
+footer{width: 100%; height: auto; background-color: #1a1a1a;}
+footer .container{flex-direction: column;}
 
-footer img{width: 100px;}
-footer p{font-size: 1.8rem; letter-spacing: 2px; color: #fff;}
+footer .footer-top{
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 95%; 
+    height: 30%; 
+    margin-top: 10px;
+}
 
+.footer-top .footer-title{
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+.footer-top .footer-title h2{
+    font-family: 'Urban'; 
+    font-size: 3rem; 
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.footer-top .social-media{
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-top .social-media a{margin: 0 5px;}
+.footer-top .social-media img{width: 40px; height: 40px;}
+
+footer .footer-center{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%; 
+    height: 70%;
+    margin-top: 40px;
+}
+
+footer .footer-center .comunication{margin: 0 15px;}
+
+footer h3{font-size: 1.8rem; font-weight: lighter; color: #fff;}
+
+footer .footer-center .footer-target{
+    width: 100%;
+    height: 81%;
+    padding-top: 10px;
+}
+footer .footer-center .footer-target p{
+    margin: 10px 0;
+    padding: 2px 0; 
+    font-size: 1.8rem; 
+    color: #5a5a5a;
+}
+
+footer .footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+    height: 20%;
+    border-top: 1px solid #575757;
+}
+
+footer .footer-bottom .container{align-items: flex-start; margin: 15px 2%;}
+footer .footer-bottom p{font-size: 1.2rem; color: #ffffff;}
 
 @media screen {
-    @media screen and (max-width: 520px){footer img{width: 80px;}}
-    @media screen and (max-width: 340px){footer p{font-size: 1.3rem;}}
+    @media screen and (max-width: 480px){
+        footer .footer-center{justify-content: center;}
+    }
+    @media screen and (max-width: 380px){
+        .footer-top .footer-title{align-items: center; width: 100%;}
+        .footer-top .footer-title h2{font-size: 2.8rem;}
+        .footer-top .social-media{justify-content: center; width: 100%; margin-top: 10px;}
+        footer .footer-center .about-us{width: 50%;}
+    }
 }

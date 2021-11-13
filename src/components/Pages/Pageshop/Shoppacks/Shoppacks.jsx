@@ -36,11 +36,6 @@ const Section = styled.section`
             background-color: ${props => props.mpCard !== false && '#ffffff'};
             box-shadow: ${props => props.mpCard === false ? '0 0 1px 1px #efefef' : '0 0 1px 1px #d5d5d5'};
 
-            &:hover{
-                border: ${props => props.mpCard === false && 'none'};
-                transform: ${props => props.mpCard === false && `scale(1.1)`};
-            }
-
             .card-image{
 
                 img{max-width: ${props => props.mpCard !== false && '140px'};}

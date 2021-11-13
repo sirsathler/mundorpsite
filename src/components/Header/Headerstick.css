@@ -1,37 +1,51 @@
-.header-sticky, .data-points, .header-login{
+.header-sticky, .header-info-player, .header-action, .header-action .action-links,.header-action .header-login{
     display: flex; 
     justify-content: center; 
     align-items: center; 
     position: sticky;
     top: 0;
     width: 100%;
-    height: 100px;
-    background-color: #242424;
+    background-color: #ffffff;
     z-index: 5;
 }
 
+
+.header-sticky{height: 90px;}
 .header-sticky .container{flex-direction: row; justify-content: space-between; height: 100%;}
 
 
-.data-points{width: 35%; height: 100%;}
-.header-login{justify-content: flex-end; width: 25%; height: 100%;}
+.header-info-player{width: 55%; height: 100%;}
+.header-action{justify-content: flex-end; width: 45%; height: 100%;}
+
+
+.header-action .action-links{justify-content: flex-end; width: 55%;}
+.header-action .action-links a{margin: 0 15px;}
+.header-action .action-links img{width: 35px;}
+
+.header-action .header-login{justify-content: flex-end; width: 45%;}
 
 @media screen {
-    @media screen and (max-width: 980px){.data-points{width: 60%;}}
-
-    @media screen and (max-width: 690px){
-        .header-sticky .container{
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .data-points{width: 95%;}
-        .header-login{justify-content: center; width: 100%;}
+    @media screen and (max-width: 980px){
+        .header-sticky{height: auto;}
+        .header-sticky .container{flex-direction: column; margin: 10px 0;}
+        .header-sticky .container .header-info-player{width: 80%; margin-bottom: 10px;}
     }
 
-    @media screen and (max-width: 480px){
-        .header-sticky{height: 130px;}
-        .data-points{flex-direction: column;}
+    @media screen and (max-width: 680px){
+        .header-sticky .container .header-info-player{flex-wrap: wrap; width: 100%;}
+        .header-sticky .container .header-action{width: 98%;}
+        .header-action .action-links{justify-content: flex-start; width: 55%;}
+    }
 
+    @media screen and (max-width: 440px){
+        .header-sticky .container .header-action{
+            flex-direction: column;
+        }
+
+        .header-sticky .container .header-action .header-login{margin-top: 5px;}
+    }
+
+    @media screen and (max-width: 420px){
+        .header-action .action-links img{width: 28px;}
     }
 }
