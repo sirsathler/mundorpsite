@@ -16,13 +16,17 @@
     height: 100%;
 }
 
-.name-login p{font-size: 1.3rem; color: white;}
-.arrow-login{width: 20%; height: 100%;}
+.name-login p{font-size: 1.7rem; color: #8f8f8f;}
+
+.arrow-login{align-items: center; width: 20%; height: 100%;}
+.material-icons-outlined{color: #000000;}
 
 @media screen {
 
     @media screen and (max-width: 690px){
         .content-login{margin-right: 0;}
-
+    }
+    @media screen and (max-width: 420px){
+        .content-login .name-login p{font-size: 1.3rem;}
     }
 }

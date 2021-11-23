@@ -1,0 +1,80 @@
+.login, .box-login .box-input, .register, .register-progress{display: flex; align-items: center; justify-content: center;}
+
+.page-login{
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(180deg, #FCE505, #FB620D, #FB340E, #104c62, #07222c);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
+}
+
+.page-login .login{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../images/login.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+.login .season-logo-img{
+    position: absolute;
+    right: 0;
+    bottom: -1px; /*não me pergunte*/
+    width: 300px;
+    margin-right: 20px;
+}
+
+@keyframes gradient {
+	0% {background-position: 0% 10%;}
+	50% {background-position: 0% 100%;}
+	100% {background-position: 0% 10%;}
+}
+
+.page-login .login .box-login{width: 100%; max-width: 750px; text-align: center;}
+
+.box-login .box-images-login{width: 100%; height: auto;}
+.box-login .box-images-login img{width: 95%;}
+
+.box-login .box-input{flex-direction: column; width: 80%; height: 45%; margin: 60px auto 0;}
+
+.page-login-register .register{
+    flex-direction: column; 
+    justify-content: space-around; 
+    width: 100%; 
+    height: 650px; 
+    background-image: url('../../../images/login.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a1a1a;
+}
+
+.page-login-register .register h2{
+    margin: 0 2%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #fff;
+}
+
+@media screen {
+    @media screen and (max-width: 1024px) {.page-login{height: 80vh;}}
+    @media screen and (max-width: 920px){.login .season-logo-img{width: 220px;}}
+
+    @media screen and (max-width: 768px) {
+        .login .season-logo-img{display: none;}
+        .page-login{height: 65vh;}
+        .box-login .box-images-login img{width: 70%;}
+        .box-login .box-input{width: 80%;}
+    }
+
+    @media screen and (max-width: 540px){
+        .page-login-register .register h2{font-size: 1.2rem;}
+    }
+
+    @media screen and (max-width: 480px){
+        .box-login .box-input{width: 100%;}
+    }
+}

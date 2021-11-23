@@ -1,8 +1,6 @@
 import css from './Vehicleinfo.css'
 import styled from 'styled-components';
 
-import imgIcon from '../../images/vehicle/id-icon.png'
-
 const Div = styled.div`
     display: flex; 
     flex-direction: column;

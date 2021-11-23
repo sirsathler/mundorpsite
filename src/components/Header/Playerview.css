@@ -1,0 +1,38 @@
+.player-overview, .overview-image, .arrow-login{display: flex; justify-content: center;}
+
+.player-overview{
+    flex-direction: row;
+    width: 33%;
+    max-width: 300px;
+    height: 50%;
+    margin-left: 2%;
+}
+
+.overview-image{align-items: center; width: 30%; height: 100%;}
+.overview-image img{width: 40px; height: auto;}
+
+.overview-info{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.overview-info p{padding-left: 2%; font-size: 1.5rem; color: #8f8f8f;}
+
+@media screen {
+    @media screen and (max-width: 980px){
+        .player-overview .overview-info{height: auto;}
+    }
+
+    @media screen and (max-width: 690px){
+        .player-overview{height: 80%; margin-top: 5px;}
+    }
+
+    @media screen and (max-width: 440px){
+        .player-overview{width: 48%;}
+        .player-overview .overview-info p{font-size: 1.2rem;}
+    }
+}

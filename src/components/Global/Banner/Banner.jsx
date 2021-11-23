@@ -5,9 +5,7 @@ import Options from '../Buttons/Options'
 import Searchbar from '../Buttons/Searchbar'
 import Vehicleinfo from '../Vehicleinfo'
 
-import img from '../../../images/shop/cars/Python.png'
-
-export default function Banner(){
+export default function Banner(props){
     return(
         <section className='banner'>
             <div className="container">
@@ -25,7 +23,7 @@ export default function Banner(){
                 <div className="banner-center">
                     <div className="vehicle-name"><p>rtx</p></div>
                     <div className="vehicle-img">
-                        <img src={img} alt="" />
+                        <img src={props.image} alt="" />
                     </div>
                 </div>
                 <div className="banner-bottom">

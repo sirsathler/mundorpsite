@@ -6,7 +6,11 @@ import Carousel from 'react-elastic-carousel'
 import Cardnews from '../../Global/Cards/Cardnews'
 import Bannercarrousel from '../Pageshop/Shopbanner/Bannercarrousel'
 
-
+var breakPoint = [
+      { width: 1, itemsToShow: 1 },
+      { width: 700, itemsToShow: 2, itemsToScroll: 2},
+      { width: 1000, itemsToShow: 3 }
+]
 
 export default function Home(){
     return(
@@ -17,8 +21,8 @@ export default function Home(){
             </div>
             <div className="news">
                 <div className="container">
-                    <h2>ultimas notícias</h2>
-                    <Carousel itemsToShow={3} >
+                    <h2>ultimas notícias!</h2>
+                    <Carousel itemsToShow={3} showArrows={false} breakPoints={breakPoint}>
                         <Cardnews />
                         <Cardnews />
                         <Cardnews />
@@ -31,3 +35,4 @@ export default function Home(){
         </div>
     )
 }
+
