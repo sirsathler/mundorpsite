@@ -10,12 +10,12 @@
 }
 
 .card-news .info-news{width: 100%; height: 50%;}
-.card-news .info-news h3{padding: 10px 0; text-align: center; font-size: 1.5rem;}
+.card-news .info-news h3{padding: 10px 0; text-align: center; font-size: 1.3rem;}
 .card-news .info-news p{padding: 0 20px; text-align: justify; font-size: 0.9rem;}
 
 .card-news .image-news{width: 100%; height: 50%;}
 
-/*CONFIGS ELASTIC CAROUSEL*/
+/***********************CONFIGS ELASTIC CAROUSEL***********************/
 
 .kDAHyg,.eEojdq{
     /*estilizando os botoes*/

@@ -19,11 +19,11 @@ export default function Home(){
             <div className="mundo-premium-img">
                 <img src={premiumImage} alt="" />
             </div>
-            <div className="news">
+            <section className="news">
                 <div className="container">
                     <h2>ultimas notícias!</h2>
                     <Carousel itemsToShow={3} showArrows={false} breakPoints={breakPoint}>
-                        <Cardnews />
+                        <Cardnews /*imagem do card aqui via props*//>
                         <Cardnews />
                         <Cardnews />
                         <Cardnews />
@@ -31,7 +31,7 @@ export default function Home(){
                         <Cardnews />
                     </Carousel>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }
