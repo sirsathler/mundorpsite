@@ -1,0 +1,36 @@
+.title{
+
+line-height: 40px;
+font-weight: bolder; 
+text-align: center;
+font-size: 48px;
+color: #4d4d4d
+
+}
+
+.subtitle{
+
+
+margin: auto;
+max-width: 412px;
+line-height: 26px;
+text-align: center;
+font-size: 25px;
+color: #cccccc
+}
+section{
+
+padding: 100px;
+}
+
+.orange-text{
+
+color: #ff6600;
+
+}
+
+.background{
+
+background-color: #1a1a1a;
+
+}
