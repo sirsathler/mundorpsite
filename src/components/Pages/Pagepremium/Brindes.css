@@ -1,0 +1,27 @@
+.rewards-container{
+    padding: 32px;
+}
+
+.title{
+    text-align: center;
+    font-size: 48px;
+    color: #4d4d4d;
+}
+
+.subtitle {
+    max-width: 412px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    color: #ccc;
+}
+
+.img-wrapper{
+    text-align: center;
+    max-width: 768px;
+    margin: auto;
+}
+
+.img-wrapper img{
+    width: 100%;
+}
