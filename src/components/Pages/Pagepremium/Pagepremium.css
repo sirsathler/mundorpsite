@@ -16,6 +16,8 @@
 .img-wrapper{text-align: center; max-width: 768px; margin: auto;}
 .img-wrapper img{width: 100%;}
 
+.premium-server-container{background-color: #f0f0f0;}
+
 /*****************************VANTAGENS****************************/
 .title{
     line-height: 40px;
@@ -30,7 +32,7 @@
     line-height: 26px;
     text-align: center;
     font-size: 25px;
-    color: #cccccc;
+    color: #b3b3b3;
 }
 
 section{padding: 100px;}

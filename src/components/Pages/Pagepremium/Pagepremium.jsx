@@ -43,8 +43,17 @@ export default function Pagepremium(){
                 </div>
                 <div className= 'img-wrapper'>
                     <img src={image}/>
-                </div>              
+                </div>  
             </section>
+
+            <section className= 'premium-server-container'>
+                <div className= 'text-wrapper'>
+                    <p className= 'title'>ACESSO AO SERVIDOR PREMIUM</p>
+                    <p className= 'subtitle'>VOCÊ POSSUIRÁ ACESSO EXCLUSIVO AO NOSSO SERVIDOR PREMIUM, 
+                    COM XP DOBRADO!</p>
+                </div>
+            </section> 
+                      
             <div>
                 <section className='text'>
                     <p className='title'>MAIS VAGAS NA GARAGEM! </p>
