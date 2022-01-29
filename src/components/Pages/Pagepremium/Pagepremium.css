@@ -1,0 +1,67 @@
+
+
+
+/*****************************REWARDS****************************/
+.rewards-container{padding: 32px;}
+
+.title{text-align: center; font-size: 48px; color: #4d4d4d;}
+.subtitle{
+    max-width: 412px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    color: #ccc;
+}
+
+.img-wrapper{text-align: center; max-width: 768px; margin: auto;}
+.img-wrapper img{width: 100%;}
+
+/*****************************VANTAGENS****************************/
+.title{
+    line-height: 40px;
+    font-weight: bolder; 
+    text-align: center;
+    font-size: 48px;
+    color: #4d4d4d;
+}
+.subtitle{
+    margin: auto;
+    max-width: 412px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 25px;
+    color: #cccccc;
+}
+
+section{padding: 100px;}
+.orange-text{color: #ff6600;}    
+.background{background-color: #1a1a1a;}
+
+/*****************************CARDS-PREMIUM****************************/
+.page-premium .cards-premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+.page-premium .cards-premium .cards-premium-title h2{
+    text-align: center;
+    font-family: 'Urban';
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: white;
+}
+
+/*CLASSE CONTROLADORA DOS CARDS DO CONTAINER*/
+.cards-premium-container{display: flex; justify-content: center;}
+
+.page-premium .cards-premium .card{margin: 0 20px; box-shadow: none;}
+.page-premium .cards-premium  .card-image img{width: 90%;}
+
+.page-premium .cards-premium .card .card-infos{background-color: #fff;}
+
+.page-premium .cards-premium .card-infos 
+p:first-child{font-size: 1.2rem;}
+.page-premium .cards-premium .card-infos 
+p:last-child{font-size: 2.1rem;}
