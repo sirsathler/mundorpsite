@@ -1,7 +1,9 @@
 import css from './Pagepremium.css'
 import Card from '../Pageshop/Shopcards/Card'
 
+import imageBanner from '../../../images/logo-minimalist.png'
 import image from '../../../images/premiumshop.png'
+
 
 const premium = [
     {
@@ -26,13 +28,16 @@ const premium = [
         "rp": 150
     },
 ]
-/*NAO SEI SE CONSIGO REPLICAR COM UMA JÁ EXISTENTE, VOU OLHAR HOJE DE MANHA 
-29/01*/ 
+/*NAO SEI SE CONSIGO REPLICAR COM UMA JÁ EXISTENTE, VOU OLHAR DEPOIS*/
 
 export default function Pagepremium(){
     return(
         <div className= "page-premium">
-            {/*GABY FAZ O SEU AQUI EM CIMA*/}
+            <section className='premium-banner'>
+                <div className='image-wrapper'>
+                    <img className='premium-image' src={imageBanner}/>
+                </div>
+            </section>
             <section className= 'rewards-container'>
                 <div className= 'text-wrapper'>
                     <p className= 'title'>BRINDES GRATUITOS</p>

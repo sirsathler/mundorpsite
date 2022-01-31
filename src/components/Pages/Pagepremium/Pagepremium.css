@@ -1,5 +1,13 @@
+.premium-banner{
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 100px 0;
+}
 
+.premium-image{width: 100%;}
 
+.image-wrapper{max-width: 450px; padding: 0 30px;}
 
 /*****************************REWARDS****************************/
 .rewards-container{padding: 32px;}
