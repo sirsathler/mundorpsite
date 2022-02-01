@@ -28,48 +28,46 @@ const premium = [
         "rp": 150
     },
 ]
-/*NAO SEI SE CONSIGO REPLICAR COM UMA JÁ EXISTENTE, VOU OLHAR DEPOIS*/
+
 
 export default function Pagepremium(){
     return(
         <div className= "page-premium">
             <section className='premium-banner'>
-                <div className='image-wrapper'>
-                    <img className='premium-image' src={imageBanner}/>
+                <div className="container">
+                    <div className='image-wrapper'>
+                        <img className='premium-image' src={imageBanner}/>
+                    </div>
                 </div>
+                <img src="" alt="" />
             </section>
             <section className= 'rewards-container'>
                 <div className= 'text-wrapper'>
-                    <p className= 'title'>BRINDES GRATUITOS</p>
-                    <p className= 'subtitle'>
+                    <p className= 'rewards-title'>BRINDES GRATUITOS</p>
+                    <p className= 'rewards-subtitle'>
                         COM A ASSINATURA PREMIUM VOCÊ RECEBE BÔNUS DE
                         MP E DIVERSOS OUTROS BRINDES TODA SEMANA!
                     </p>
                 </div>
-                <div className= 'img-wrapper'>
+                <div className= 'rewards-img-wrapper'>
                     <img src={image}/>
                 </div>  
             </section>
-
-            <section className= 'premium-server-container'>
-                <div className= 'text-wrapper'>
+            <section className='benefits'>
+                <div className= 'text'>
                     <p className= 'title'>ACESSO AO SERVIDOR PREMIUM</p>
                     <p className= 'subtitle'>VOCÊ POSSUIRÁ ACESSO EXCLUSIVO AO NOSSO SERVIDOR PREMIUM, 
                     COM XP DOBRADO!</p>
                 </div>
-            </section> 
-                      
-            <div>
-                <section className='text'>
+                <div className='text'>
                     <p className='title'>MAIS VAGAS NA GARAGEM! </p>
                     <p className='subtitle'>VOCÊ PODERÁ GUARDAR MAIS CARROS EM SUA GARAGEM PESSOAL!</p>
-                </section>
-
-                <section className='background'>
-                    <p className='orange-text title'>E MUITAS OUTRAS VANTAGENS!</p>
+                </div>
+                <div className='text'>
+                    <p className='title'>E MUITAS OUTRAS VANTAGENS!</p>
                     <p className='subtitle'>ASSINE JÁ O MUNDO PREMIUIM PARA TER ACESSO A ESSAS E DIVERSAS OUTRAS VANTAGENS EM NOSSOS SERVIDORES!</p>
-                </section>
-            </div>
+                </div>
+            </section>
             <section className='cards-premium'>
                 <div className='cards-premium-title'>
                     <h2>assine o premium!</h2>
