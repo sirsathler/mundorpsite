@@ -38,8 +38,16 @@
     margin: 5px;
     cursor: pointer;
     transition: 0.5s;
-    box-shadow: 0px 0 4px 0px #1a1a1a;
+    box-shadow: 0px 0 4px 0px #9b9b9b;
     border-radius: 5px;
+}
+
+.imgBox img {
+    display: none;
+}
+
+.imgBox .check-color {
+    display: block;
 }
 
 @media screen {
