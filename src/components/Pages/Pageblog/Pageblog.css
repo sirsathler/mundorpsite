@@ -1,0 +1,36 @@
+
+.blog-banner{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/779ae9dc3318503f9abc9ea6804b2f31d0fd84e807eb8a8851185cb2b6092af2._V_SX1080_.jpg');
+    height: 344px;
+}
+
+.blog-post{
+    height: 800px;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+
+.blog-title{
+    font-size: 70px;
+}
+
+.blog-subtitle{
+    font-size: 30px;
+    color: #7c7b7b;
+}
+
+.blog-text{
+    text-align: center;
+    font-size: 17px;
+    color: #7c7b7b;
+}
+
+.blog-author{
+    font-size: 20px;
+    color: #7c7b7b;
+}
+
+.blog-date{
+    font-size: 17px;
+    color: #7c7b7b;
+}
