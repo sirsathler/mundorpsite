@@ -3,17 +3,9 @@ import styled from "styled-components";
 import checkImage from '../../../images/icons/Check.png'
 
 const Boxcolor = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    cursor: pointer;
+
     background-color: ${props => props.color};
-    transition: 0.5s;
-    box-shadow: 0px 0 4px 0px #1a1a1a;
-    border-radius: 5px;
+
 
     &:hover{
         border-radius: 15px;
@@ -23,15 +15,22 @@ const Boxcolor = styled.div`
     img{width: 20px;}
 `
 
-function chooseColor(){
-    let check = document.getElementById('checkColor');
-    check.style.display = 'none'
+
+
+var imgBox = document.querySelectorAll("imgBox") //funcionando
+var img = document.getElementsByClassName('checkColor')
+console.log(imgBox, img)
+
+for (let i = 0; i < imgBox.length; i++) {
+    imgBox[i].addEventListener('click', () => {
+        img[i].style.display = 'none'
+    })
 }
 
 export default function Productcolor(props){
     return(
-        <Boxcolor onClick={chooseColor} color={props.color}>
-            {/* <img id='checkColor' src={checkImage} alt="" /> */}
+        <Boxcolor ref='' className="imgBox" color={props.color}>
+            <img className='checkColor' src={checkImage} alt="" />
         </Boxcolor>
     )
 }

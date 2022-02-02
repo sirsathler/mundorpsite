@@ -29,6 +29,19 @@
 .products .container{flex-wrap: wrap; width: 90%; max-width: 1000px;}
 
 
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0 4px 0px #1a1a1a;
+    border-radius: 5px;
+}
+
 @media screen {
     @media screen and (max-width: 420px){
         .page-product .products{height: 400px;}
