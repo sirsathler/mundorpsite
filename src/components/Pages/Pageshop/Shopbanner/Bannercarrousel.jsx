@@ -1,5 +1,4 @@
 import css from './Bannercarrousel.css'
-import bannerImage from '../../../../images/shop/BannerP208.png'
 
 import Carousel from 'react-grid-carousel'
 
@@ -15,18 +14,19 @@ let breakpoints = [
     }
 ]
 
-export default function Bannercarrousel(){
+export default function Bannercarrousel(props){
     return(
         <section className='banner-carrousel'>
             <Carousel cols={1} rows={1} gap={0} loop hideArrow showDots mobileBreakpoint={breakpoints} autoplay={1700}> 
                 <Carousel.Item>
-                    <a href=""><img width="100%" src={bannerImage} /></a>
+                     {/*importa a img na sua page e passa como parâmetro pra ca */ }
+                    <a href=""><img width="100%" src={props.img} /></a>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <a href=""><img width="100%" src={bannerImage} /></a>
+                    <a href=""><img width="100%" src={props.img} /></a>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <a href=""><img width="100%" src={bannerImage} /></a>
+                    <a href=""><img width="100%" src={props.img} /></a>
                 </Carousel.Item>
             </Carousel>
         </section>

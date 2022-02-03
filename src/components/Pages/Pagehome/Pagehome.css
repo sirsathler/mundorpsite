@@ -1,13 +1,48 @@
-.home .mundo-premium-img, .home .news{display: flex; justify-content: center; align-items: center;}
+.home .mundo-premium-img, .home .news,.home .shop-home{display: flex; justify-content: center; align-items: center;}
 
-.home .mundo-premium-img{width: 100%; margin: 50px 0;}
-.home .mundo-premium-img img{width: 90%; max-width: 600px;}
+/*CLASSE DO COMPONENT BANNER*/
+.home .banner-carrousel{background-color: #000;}
+
+.home .mundo-premium-img{width: 100%; height: 40vh; max-height: 250px; background-color: black;}
+.home .mundo-premium-img img{width: 30%; max-width: 600px;}
+
+.home .shop-home{
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("../../../images/shop/BannerP208.png");
+}
+
+.home .shop-home .container{justify-content: flex-end; align-items: flex-start;}
+.home .shop-home .container p{
+    margin-left: 2%;
+    font-size: 4rem;
+    font-family: 'URBAN';
+    color: #fff; 
+}
+
+.home .news{margin-top: 25px;}
 
 .home .news .container{flex-direction: column; width: 1100px;}
 
 .home .news h2{font-size: 3rem; margin-bottom: 50px;}
 
 @media screen {
+    @media screen and (max-width: 980px){
+        .home .shop-home{
+            height: 400px;
+        }
+    }
+
+    @media screen and (max-width: 660px){
+        .home .shop-home{
+            height: 280px;
+        }
+    }
+
+
     @media screen and (max-width: 380px){
         
         .home .news h2{font-size: 2rem;}

@@ -1,6 +1,7 @@
 import css from './Pagehome.css'
 
-import premiumImage from '../../../images/home/premium_alt.png'
+import premiumImage from '../../../images/logo.png'
+import bannerImage from '../../../images/Banner.png'
 
 import Carousel from 'react-elastic-carousel'
 import Cardnews from '../../Global/Cards/Cardnews'
@@ -15,10 +16,16 @@ var breakPoint = [
 export default function Home(){
     return(
         <div className="home">
-            <Bannercarrousel/>
+            <Bannercarrousel img={bannerImage}/>
             <div className="mundo-premium-img">
                 <img src={premiumImage} alt="" />
             </div>
+            <section className="shop-home">
+                <div className="container">
+                    <p>loja oficial</p>
+                </div>
+                
+            </section>
             <section className="news">
                 <div className="container">
                     <h2>ultimas notícias!</h2>
