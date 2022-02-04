@@ -24,7 +24,6 @@ export default function Home(){
                 <div className="container">
                     <p>loja oficial</p>
                 </div>
-                
             </section>
             <section className="news">
                 <div className="container">
