@@ -16,7 +16,7 @@ export default function App(){
                 <Switch>
                     <Route path="/" exact/>
                     <Route path="/player" component={Pageprofile}/>
-                    <Route path="/player" component={Pagestorage}/>
+                    <Route path="/storage" component={Pagestorage}/>
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
                     <Route path="/vehicle" component={Pagevehicle}/>
