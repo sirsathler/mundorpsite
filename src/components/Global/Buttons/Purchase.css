@@ -1,0 +1,14 @@
+.button-purchase{
+    width: 185px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #009933;
+    font-size: 1.7rem;
+    color: white;
+    transition: 1s;
+    
+}
+
+.button-purchase:hover{transition: 1s; background-color: #009933b2;}

@@ -1,27 +1,22 @@
 import css from './Purchase.css'
-import styled from 'styled-components';
 
-const Input = styled.input`
-    
-    width: ${props=> props.changeFormat == true ? '100%' : '185px'};
-    height: 60px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #009933;
-    font-size: 1.7rem;
-    color: white;
-    transition: 1s; 
+import React, { useState } from 'react'
+import Modal from '../Modals/Modal';
 
-    &:hover{transition: 1s; background-color: #009933b2;}
-
-`
+import image from '../../../images/shop/cars/DTS.png'
+/*TEM Q VER ISSO AQ */
 
 export default function Purchase(props){
-    if(props.isHundred == true){
-        return(
-            <Input className='button-purchase' type="button" value='Pagar agora!' changeFormat={true}/>
-        )
-    }return(
-        <Input className='button-purchase' type="button" value='comprar' changeFormat={false}/>
+    
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+    return(
+        <div>
+            <input onClick={() => setIsModalVisible(true)} 
+            className='button-purchase' value={props.text}/>
+            {isModalVisible ? <Modal img={image}
+            onClose={() => setIsModalVisible(false)}/> 
+            : null}
+        </div>
     )
 }

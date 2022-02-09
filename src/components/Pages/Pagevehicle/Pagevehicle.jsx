@@ -57,7 +57,7 @@ export default function Pagevehicle(){
                             </div>
                         </div>
                         <div className="pay-debts">
-                            <Purchase isHundred={true}/>
+                            <Purchase text="Pagar agora!"/>
                         </div>
                         <div className="doubts"><p>dúvidas? Clique aqui</p></div>
                     </div>

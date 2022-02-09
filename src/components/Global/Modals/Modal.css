@@ -1,0 +1,73 @@
+.process-modal, .container-modal, .header-modal, .close-modal, .shopping-details{
+    display: flex;
+    justify-content: center;
+}
+
+.process-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.process-modal .container-modal{
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+    border-radius: 15px;
+    background-color: #e6e6e6;
+}
+
+.process-modal .container-modal .header-modal{flex-direction: column; width: 95%; height: 15%;}
+
+.process-modal .close-modal{
+    /*COLOCA NO TOPO A DIREITA*/
+    position: relative;
+    top: 16px;
+    right: calc(-100% + 60px);
+    /*COLOCA NO TOPO A DIREITA*/
+    align-items: center;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*MODIFICA O X*/
+.process-modal .close-modal::before,
+.process-modal .close-modal::after{
+    content: ' ';
+    position: absolute;
+    width: 1.5px;
+    height: 16px;
+    background-color: #808080;
+}
+
+.process-modal .close-modal::before{transform: rotate(45deg);}
+.process-modal .close-modal::after{transform: rotate(-45deg);}
+/*MODIFICA O X*/
+
+.process-modal .container-modal h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.process-modal .shopping-details{
+    flex-direction: row;
+    width: 95%;
+    height: 85%;
+}
+
+.process-modal .shopping-details .product-image{width: 70%; height: 100%;}
+.process-modal .shopping-details .product-image img{width: 100%; height: auto;}
+
+.process-modal .shopping-details .product-details{width: 30%; height: 100%;}
+
