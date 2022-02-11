@@ -1,4 +1,4 @@
-.process-modal, .container-modal, .header-modal, .close-modal, .shopping-details{
+.process-modal, .container-modal, .header-modal, .close-modal, .shopping-details, .product-details, .box-details, .confirm-shopping, .box-calc, .box-calc p{
     display: flex;
     justify-content: center;
 }
@@ -52,7 +52,7 @@
 
 .process-modal .close-modal::before{transform: rotate(45deg);}
 .process-modal .close-modal::after{transform: rotate(-45deg);}
-/*MODIFICA O X*/
+/*MODIFICA O BOTÃO X DE FECHAR*/
 
 .process-modal .container-modal h3{
     text-align: center;
@@ -66,8 +66,54 @@
     height: 85%;
 }
 
-.process-modal .shopping-details .product-image{width: 70%; height: 100%;}
+.process-modal .shopping-details .product-image{width: 60%; height: 100%;}
 .process-modal .shopping-details .product-image img{width: 100%; height: auto;}
 
-.process-modal .shopping-details .product-details{width: 30%; height: 100%;}
+.process-modal .shopping-details .product-details{justify-content: center; width: 40%; height: 100%;}
+.process-modal .product-details .box-details{
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+/*CONFIGURAÇÃO LOCAL DO BOTÃO*/
+.process-modal .product-details .box-details .button-purchase{width: 100%;} 
+
+.process-modal .box-details .confirm-shopping{
+    flex-direction: column;
+    align-items: center;
+    width: 80%; 
+    height: 70%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.process-modal .confirm-shopping .icon-type-shopping{width: 100%; height: 25%; text-align: center;}
+/*
+Agora você me pergunta pq text-align funcionou na tag img?
+Eu nao sei de nada, eu só configuro...
+*/
+.process-modal .confirm-shopping .icon-type-shopping img{height: 80%;}
+
+.process-modal .box-details .confirm-shopping .border{
+    width: 80%;
+    margin: 5px auto;
+    border: 1px solid #808080;
+}
+
+.process-modal .confirm-shopping .calc-product{flex-direction: column; width: 100%; height: 80%;}
+
+.process-modal .confirm-shopping .box-calc{width: 80%; height: 15%;}
+.process-modal .confirm-shopping .box-calc p{align-items: center; width: 50%; height: 40px;}
+.process-modal .confirm-shopping .box-calc p:first-child{font-size: 1.2rem; color: #808080;}
+.process-modal .confirm-shopping .box-calc:nth-child(3) p:nth-child(2){color: #5e1111;}
+.process-modal .confirm-shopping .box-calc p:last-child{
+    justify-content: flex-start;
+    font-size: 2.4rem;
+    color: #a18f2a;
+}
+
+
+
 
