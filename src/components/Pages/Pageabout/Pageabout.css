@@ -1,0 +1,22 @@
+.about-banner-container {
+    background-image: url("../../../images/about/banner_about.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-un-novo-jeito-de-jogar {
+    background-color: whitesmoke;
+    padding: 110px;
+}
+.texto {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.texto2 {
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
