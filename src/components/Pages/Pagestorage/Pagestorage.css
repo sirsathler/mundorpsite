@@ -1,0 +1,24 @@
+.section-buy-itens{
+    background-color: #e6e6e6;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.section-text{
+    color: #666666;
+    font-size: 40px;
+    max-width: 400px;
+}
+#text-botton{
+    font-size: 25px;
+    color: #bebebe;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+#shop{
+    color: #0072cf;
+}
