@@ -1,4 +1,25 @@
-.section-buy-itens{
+.storage-header{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.storage-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+.storage-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 35px;
+    color: #B3B3B3;
+    margin: 10px;
+}
+.storage-wrapper{
+    margin: 10px 60px;
+}
+.section-storage{
     background-color: #e6e6e6;
     height: 550px;
     display: flex;
@@ -12,44 +33,12 @@
     font-size: 40px;
     max-width: 400px;
 }
-#text-botton{
+.description{
     font-size: 25px;
-    color: #bebebe;
+    color: #b3b3b3;
+}
+.text-bottom{
     position: absolute;
     bottom: 0;
     padding: 20px;
-}
-#shop{
-    color: #0072cf;
-}
-.storage-header{
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.storage-title{
-    font-size: 50px;
-    font-weight: bold;
-    color: #1A1A1A;
-}
-
-.storage-info-container{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 35px;
-    color: #B3B3B3;
-    margin: 10px;
-    
-}
-
-.storage-wrapper{
-    margin: 10px 60px;
-}
-
-.storage-value{
-    color: #297CDB;
-    font-weight: 600;
 }
