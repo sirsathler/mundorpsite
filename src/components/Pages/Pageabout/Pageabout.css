@@ -1,9 +1,22 @@
 .about-banner {
-    background-image: url("../../../images/about/banner_about.png");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#mundo-banner{  
+    background-image: url("../../../images/about/banner-mundo.png");
+    
+}
+#police-banner{
+    background-image: url("../../../images/about/banner-police.png");
+    
+}
+
+#thief-banner{
+    background-image: url("../../../images/about/banner-thief.png");
+    
 }
 .about-info {
     background-color: whitesmoke;
