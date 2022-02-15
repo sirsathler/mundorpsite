@@ -1,49 +1,41 @@
-.about-player .nickname, .about-player .wallet-player, .wallet-player .wallet-mp, .wallet-player .wallet-rp, .about-player .wallet-player .wallet-mp .valor-mp{
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-}
-
-.infos-profile{
-    width: 95%;
-    height: 500px;
-    margin-top: 25px;
-    border: 2px solid rgba(128, 128, 128, 0.288);
-}
-
-.infos-profile .photo-profile{position: relative; top: 30%; left: 10%;}
-
-.infos-profile .photo-profile .photo-player{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-}
-
-.infos-profile .photo-profile .photo-player .photo-content{
+.section-profile{
+    height: 550px;
     width: 100%;
-    height: 100%;
-    background-image: url("../../../../images/icons/profile.png");
-    background-size: cover;
 }
 
-.infos-profile .bg-profile{
-    width: 100%;
+.profile-wallpaper{
     height: 50%;
-    background-color: rgba(255, 255, 255, 0.103);
+    width: 100%;
+    background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/304930/ss_db70f87c3635d930580b1365101952a72a14bd4e.1920x1080.jpg?t=1642457764");
 }
 
-@media screen {
-    @media screen and (max-width: 690px){
-        .infos-profile .photo-profile{top: 35%; left: 10%;}
-        .infos-profile .photo-profile .photo-player{width: 150px; height: 150px;}
-    }
+.profile-info{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
 
-    @media screen and (max-width: 520px){
-        .infos-profile{height: 800px;}
-        .infos-profile .bg-profile{height: 30%;}
+.profile-text-wrapper{
+    text-align: center;
+}
 
-        .container .infos-profile .photo-profile{top: 20%; left: 30%;}
-    }
+.infos-profile-name{
+    font-size: 45px;
+}
+
+.infos-profile-job{
+    font-size: 30px;
+    color: #9c9c9c;
+}
+
+.user-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+;
+}
+
+.info-wrapper{
+    padding: 50px;
 }
 
