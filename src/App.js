@@ -7,6 +7,7 @@ import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
 import Footer from './components/Footer/Footer'
 import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
 import Pagelogin from './components/Pages/Pagelogin/Pagelogin'
+import Pageabout from './components/Pages/Pageabout/Pageabout'
 
 export default function App(){
     return(
@@ -18,6 +19,7 @@ export default function App(){
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
                     <Route path="/vehicle" component={Pagevehicle}/>
+                    <Route path="/about" component={Pageabout}/>
                     <Pagelogin path="/login" component={Pagelogin}/>
                 </Switch>
                 <Footer />
