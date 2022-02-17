@@ -1,5 +1,6 @@
 import css from './Shopcards.css'
 import Card from './Card.jsx'
+import { propTypes } from 'react-grid-carousel'
 
 const carList = [
     {
@@ -125,14 +126,13 @@ const carList = [
     }
   ]
 
-export default function Shopcards(){
+export default function Shopcards(props){
     return(
         <div className="cards-wrapper">
             {
-                carList.map((car)=>(
-                    <Card key={car.id} image={car.image} name={car.title} price={car.mp} premium={true}/>
+                props.cards.map((car)=>(
+                    <Card image={car.image} name={car.Name} price={car.Price} premium={true}/>
                 ))
-                
             }
         </div>
     )
