@@ -1,7 +1,6 @@
 import css from './Card.css'
 
 export default function Card(props){
-    console.log(props.url)
     return(
         <a href={`product/${props.id}`}>
             <div className='card'>
@@ -14,5 +13,5 @@ export default function Card(props){
                 </div>
             </div>
         </a>
-    )
+    )   
 }

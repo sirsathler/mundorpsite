@@ -8,14 +8,13 @@
 .card{
     width: 230px;
     height: 280px;
-    margin: 10px 0; /*essa aqui foi para os cards la no page product, nice*/
     border-radius: 15px;
-    box-shadow: 0 0 6px 5px #efefef;
+    box-shadow: 0 0 2px 2px #efefef;
     transition: 0.4s;
 }
 
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     transform: 0.7s;
 }
 

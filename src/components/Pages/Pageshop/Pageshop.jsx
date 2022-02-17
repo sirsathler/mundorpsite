@@ -14,7 +14,7 @@ function scrollToElement(props) {
 export default function Pageshop() {
     const [products, setProducts] = useState([])
     const [page, setPage] = useState(1)
-    const [limit, setLimit] = useState(10)
+    const [limit, setLimit] = useState(9)
     const myRef = React.createRef();
 
     const nextPage = () => {
@@ -30,6 +30,7 @@ export default function Pageshop() {
         axios.get(`${process.env.REACT_APP_API_URL}/shop?page=${page}&limit=${limit}`)
             .then(response => {
                 setProducts(response.data.Prod)
+                console.log(products)
             })
     }, [page])
 
@@ -45,8 +46,8 @@ export default function Pageshop() {
                     <button onClick={() => nextPage()}><p>Proximo</p></button>
                 </div>
             </div>
-            <Shoppacks sectionSelect='premium' title='assine o premium!' />
-            <Shoppacks title='mundopoints' />
+            {/* <Shoppacks sectionSelect='premium' title='assine o premium!' /> */}
+            {/* <Shoppacks title='mundopoints' /> */}
         </div>
     )
 }
