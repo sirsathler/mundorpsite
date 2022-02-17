@@ -1,5 +1,4 @@
 .section-profile{
-    height: 550px;
     width: 100%;
 }
 .profile-wallpaper{
@@ -13,27 +12,33 @@
     background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/304930/ss_db70f87c3635d930580b1365101952a72a14bd4e.1920x1080.jpg?t=1642457764");
 }
 .profile-info{
-    height: 50%;
     width: 100%;
     background-color: white;
 }
 .profile-text-wrapper{
     text-align: center;
+    padding-top: 46px;
 }
-.infos-profile-name{
-    font-size: 45px;
+.profile-text{
+    font-size: 50px;
 }
-.infos-profile-job{
-    font-size: 30px;
+.profile-cargo{
     color: #9c9c9c;
+    font-size: 40px;
 }
 .user-info{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 20px 0 40px 0;
+}
+.description{
+    font-size: 30px;
+    color: #9c9c9c;
+    font-weight: bold;
 }
 .info-wrapper{
-    padding: 50px;
+    width: 25%;
 }
 .profile-picture{
     border-radius: 50%;
@@ -44,11 +49,14 @@
     background-size: cover;
     background-position: center;
 }
-.bordinha{
+.profile-border{
     border: 4px solid #0072cf;
     border-radius: 50%;
     padding: 6px;
     position: relative;   
+}
+.value{
+    font-size: 30px;
 }
 .level-container{
     font-weight: bold;

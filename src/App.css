@@ -35,3 +35,7 @@ body{
     src: url('../src/fonts/URBANJUNGLEDEMO.OTF');
 }
 
+.highlight{
+    color: #0072cf;
+    font-weight: 600;
+}

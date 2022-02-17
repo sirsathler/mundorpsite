@@ -9,8 +9,6 @@ export default function Pageprofile(){
         <div className="page-profile">
             <div className="container">
                 <Infosprofile />
-                <Garage />
-                <Heatmap />
             </div>
         </div>
     )
