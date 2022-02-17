@@ -1,10 +1,15 @@
 import css from './Infosprofile.css'
 import Aboutplayer from './Aboutplayer/Aboutplayer.jsx'
 
-function Infosprofile(){
-    return(
+function Infosprofile() {
+    return (
         <section className="section-profile">
-            <div className="profile-wallpaper"></div>
+            <div className="profile-wallpaper">
+                <div className="bordinha">
+                    <div className="profile-picture"></div>
+                    <div className="level-container"><p>56</p></div>
+                </div>
+            </div>
             <div className="profile-info">
                 <div className="profile-text-wrapper">
                     <h1 className="profile-text">NOME</h1>
@@ -24,8 +29,8 @@ function Infosprofile(){
                         <p className="description">PLAYER ID</p>
                     </div>
                 </div>
-                    
-             </div>
+
+            </div>
         </section>
     )
 }
