@@ -131,7 +131,7 @@ export default function Shopcards(props){
         <div className="cards-wrapper">
             {
                 props.cards.map((car)=>(
-                    <Card image={car.image} name={car.Name} price={car.Price} premium={true}/>
+                    <Card id={car.Id} url={car.Url} image={car.image} name={car.Name} price={car.Price} premium={true}/>
                 ))
             }
         </div>

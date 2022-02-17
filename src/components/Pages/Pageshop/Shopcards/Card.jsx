@@ -1,8 +1,9 @@
 import css from './Card.css'
 
 export default function Card(props){
+    console.log(props.url)
     return(
-        <a href="">
+        <a href={`product/${props.id}`}>
             <div className='card'>
                 <div className="card-image">
                     <img src={props.image} alt="" />
