@@ -6,33 +6,36 @@ import Footer from '../../Footer/Footer.jsx'
 import axios from 'axios'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min'
+import NotFound from '../../Global/NotFound/NotFound'
 
 export default function Pageprofile() {
-    const {user} = useParams();
+    const { username } = useParams();
     const getProfile = () => {
-        axios.get('http://localhost:4000/player/'+user)
+        axios.get('http://localhost:4000/player/' + username)
             .then(response => {
-                setUsername( response.data[0].Username)
-                setLevel(response.data[0].Level)
-                setUserjob(response.data[0].Job)
-                setUserRp(response.data[0].Rp)
-                setUsermp(response.data[0].Mp)
+                setUser(response.data[0])
             })
     }
-
     getProfile()
-   
-    const [username, setUsername]=useState('')
-    const [level, setLevel]=useState('')
-    const [job, setUserjob]=useState('')
-    const [userRp, setUserRp]=useState('')
-    const [usermp, setUsermp]=useState('')
-    
-    return (
-        <div className="page-profile">
-            <div className="container">
-                <Infosprofile level={level} username={username} job={job} rp={userRp} mp={usermp} id={'wip'}/>
+
+    const [user, setUser] = useState('')
+
+    if (user) {
+        return (
+            <div className="page-profile">
+                <div className="container">
+                    <Infosprofile level={user.Level} username={user.Username} job={user.Job} rp={user.Rp} mp={user.Mp} id={'wip'} />
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
+    else {
+        return (
+            <div className="page-profile">
+                <div className="container">
+                    <NotFound />
+                </div>
+            </div >
+        )
+    }
 }

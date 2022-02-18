@@ -21,10 +21,12 @@
 }
 .profile-text{
     font-size: 50px;
+    font-weight: bold;
 }
 .profile-cargo{
     color: #9c9c9c;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bold;
 }
 .user-info{
     display: flex;
