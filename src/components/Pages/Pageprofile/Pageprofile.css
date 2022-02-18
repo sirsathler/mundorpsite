@@ -1,5 +1,5 @@
 .page-profile, .container{display: flex; align-items: center; justify-content: center;}
 
-.page-profile{flex-direction: column; min-width: 100%; background-color: #1a1a1a;}
+.page-profile{flex-direction: column; min-width: 100%;}
 
 .container{width: 100%; max-width: 1480px; height: inherit; flex-direction: column;}
