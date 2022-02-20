@@ -1,0 +1,22 @@
+.faq-header-container{
+    padding: 100px;
+    text-align: center;
+}
+
+.faq-header-title{
+    font-size: 50px;
+}
+
+.faq-header-subtitle{
+    font-size: 30px;
+}
+
+.highlight{
+    color: #0072cf;
+    font-weight: 600;
+}
+
+.description{
+    color: #9c9c9c;
+    font-weight: bold;
+}

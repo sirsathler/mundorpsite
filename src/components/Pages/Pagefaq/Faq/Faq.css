@@ -1,0 +1,15 @@
+.faq-container{
+    text-align: justify;
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(146, 146, 146);
+
+}
+
+.faq-title{
+    font-size: 40px;
+}
+
+.faq-subtitle{
+    font-size: 20px;
+}
