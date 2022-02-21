@@ -1,4 +1,4 @@
-.page-profile, .container{display: flex; align-items: center; justify-content: center;}
+.page-profile, .container, .content-timeline{display: flex; align-items: center; justify-content: center;}
 
 .page-profile{flex-direction: column; min-width: 100%;     background-color: #e6e6e6;}
 
@@ -10,77 +10,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     padding: 0 20px;
 }
 
 .page-profile .heatmap h2{text-align: center;}
-
-.page-profile .heatmap .timeline{
-    display: flex;
-    width: 60%;
-    height: 120px;
-}
-
-.page-profile .heatmap .timeline .date-timeline{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    height: 100%;
-
-}
-.page-profile .heatmap .timeline .date-timeline p{font-size: 2rem; color: #999999;}
-
-
-/*TUDO ISSO POR CAUSA DE UM DESIGNER Q QUIS COLOCAR UMA BOLA NO SITE*/
-.page-profile .heatmap .timeline .point-timeline{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    height: 100%;
-}
-
-.page-profile .heatmap .timeline .point-timeline .void{width: 100%; height: 40%;}
-
-.page-profile .heatmap .timeline .point-timeline .content-circle{
-    width: 100%;
-    height: 20%;
-}
-/*ESSA AQUI É A "BORDA"*/
-.page-profile .heatmap .timeline .point-timeline .circle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    background-color: #2a72c4;
-    border-radius: 15px;
-}
-
-/*ESSA É A PARTE DE DENTRO*/
-.page-profile .heatmap .timeline .point-timeline .circle .inside-circle{
-    width: 20px;
-    height: 20px;
-    background-color: #e6e6e6;
-    border-radius: 10px;
-}
-/*TUDO ISSO POR CAUSA DE UM DESIGNER Q QUIS COLOCAR UMA BOLA NO SITE*/
-
-.page-profile .heatmap .timeline .point-timeline .conect-timeline{
-    width: 5px;
-    height: 30px;
-    background-color: black;
-}
-
-
-.page-profile .heatmap .timeline .content-timeline{
-    width: 65%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #fff;
-}
