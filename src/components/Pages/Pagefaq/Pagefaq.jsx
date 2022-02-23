@@ -9,7 +9,7 @@ export default function Pagefaq(){
                 <p className='faq-header-subtitle description'>LEIA AS PERGUNTAS MAIS FREQUENTES DE NOSSA COMUNIDADE!</p>
             </section>
             <div>
-                <Faq/>
+                <Faq title="titulo1" description="description1"/>
                 <Faq/>
                 <Faq/>
                 <Faq/>
