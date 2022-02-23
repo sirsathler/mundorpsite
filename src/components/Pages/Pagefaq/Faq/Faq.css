@@ -2,8 +2,12 @@
     text-align: justify;
     width: 100%;
     padding: 50px;
-    background-color: rgb(146, 146, 146);
+    background-color: #e6e6e6;
 
+}
+
+.faq-container:nth-child(2n){
+    background-color: #ffffff;
 }
 
 .faq-title{
@@ -12,4 +16,6 @@
 
 .faq-subtitle{
     font-size: 20px;
+    color: #999999;
+    font-weight: bold;
 }
