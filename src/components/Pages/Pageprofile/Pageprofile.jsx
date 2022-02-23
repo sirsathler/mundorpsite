@@ -13,7 +13,6 @@ export default function Pageprofile(){
                     <Timeline />
                     <Timeline />
                     <Timeline />
-                    <Timeline />
                 </section>
             </div>
         </div>

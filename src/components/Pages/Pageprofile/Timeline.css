@@ -1,4 +1,4 @@
-.page-profile .timeline{display: flex; width: 60%; height: 140px; align-items: center;}
+.page-profile .timeline{display: flex; width: 80%; height: 200px; align-items: center;}
 
 .page-profile .timeline .date-timeline{
     display: flex;
@@ -9,7 +9,7 @@
     height: 100%;
 
 }
-.page-profile .timeline .date-timeline p{font-size: 2rem; color: #999999;}
+.page-profile .timeline .date-timeline p{font-size: 2.6rem; font-weight: bold; color: #999999;}
 
 /*TUDO ISSO POR CAUSA DE UM DESIGNER Q QUIS COLOCAR UMA BOLA NO SITE*/
 .page-profile .timeline .connection-timeline{
@@ -23,13 +23,12 @@
 
 .page-profile .timeline .connection-timeline .connection-line{
     width: 5px;
-    height: 60px;
+    height: 90px;
     background-color: #adadad;
 }
 
 /*Então essa é a linguagem dos DEUSES?*/
 .page-profile .timeline:first-of-type .connection-timeline .connection-line:first-of-type{background-color: transparent;}
-.page-profile .timeline:last-of-type .connection-timeline .connection-line:last-of-type{background-color: transparent;}
 /*Então essa é a linguagem dos DEUSES?*/
 
 .page-profile .timeline .connection-timeline img{width: 35px;}
@@ -37,7 +36,7 @@
 .page-profile .timeline .content-timeline{
     justify-content: flex-start;
     position: relative;
-    width: 65%;
+    width: 60%;
     height: 90%;
     border-radius: 10px;
     background-color: #fff;
@@ -45,7 +44,7 @@
 
 .page-profile .timeline .content-timeline .arrow-cool{
     position: absolute;
-    left: -10px;
+    left: -8px;
     border-top: 20px transparent;
     border-left: 20px solid white;
     border-bottom: 20px solid transparent;
