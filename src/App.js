@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer'
 import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
 import Pagelogin from './components/Pages/Pagelogin/Pagelogin'
 import Pageabout from './components/Pages/Pageabout/Pageabout'
+import Pagemembers from './components/Pages/Pagemembers/Pagemembers'
 
 export default function App(){
     return(
@@ -20,6 +21,7 @@ export default function App(){
                     <Route path="/product" component={Pageproduct}/>
                     <Route path="/vehicle" component={Pagevehicle}/>
                     <Route path="/about" component={Pageabout}/>
+                    <Route path="/members" component={Pagemembers}/>
                     <Pagelogin path="/login" component={Pagelogin}/>
                 </Switch>
                 <Footer />
