@@ -1,11 +1,10 @@
 .page-profile, .container, .content-timeline{display: flex; align-items: center; justify-content: center;}
 
-.page-profile{flex-direction: column; min-width: 100%;     background-color: #e6e6e6;}
+.page-profile{flex-direction: column; min-width: 100%; background-color: #e6e6e6;}
 
 .container{width: 100%; max-width: 1480px; height: inherit; flex-direction: column;}
 
 /*HEATMAPPPPPPPPPPPPPPPPPPPPPPPPPPP*/
-
 .page-profile .heatmap{
     display: flex;
     flex-direction: column;
@@ -18,7 +17,7 @@
 
 .page-profile .heatmap h2{
     padding: 30px 0;
-    font-size: 4rem; 
+    font-size: 3.4rem; 
     font-weight: bold;
     text-align: center;
 }

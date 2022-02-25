@@ -15,8 +15,9 @@ export default function Pageprofile(){
                 <div className='connection-line'></div>
             </div>
             <div className="content-timeline">
-                {/*LITERALEMTE UMA DIV A PARTE DO COMPONENTE content-timeline*/}
                 <div className="arrow-cool"></div>
+                <div className='player-highliths'><p>Criou um virus</p></div>
+                <div className='highlith-time'><p>10:50</p></div>
             </div>
         </div>
     )
