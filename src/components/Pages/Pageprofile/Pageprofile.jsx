@@ -6,6 +6,8 @@ import { useState } from 'react'
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min'
 import NotFound from '../../Global/NotFound/NotFound'
 
+import Timeline from './Timeline/Timeline'
+
 export default function Pageprofile() {
     const { username } = useParams();
     const getProfile = () => {
@@ -23,6 +25,14 @@ export default function Pageprofile() {
             <div className="page-profile">
                 <div className="container">
                     <Infosprofile level={user.Level} username={user.Username} job={user.Job} rp={user.Rp} mp={user.Mp} id={'wip'} />
+                    <section className='heatmap'>
+                        <h2>Ficha do jogador</h2>
+                        <Timeline />
+                        <Timeline />
+                        <Timeline />
+                        <Timeline />
+                        <Timeline />
+                    </section>
                 </div>
             </div>
         )
