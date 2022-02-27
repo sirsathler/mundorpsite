@@ -17,7 +17,7 @@ let breakpoints = [
 export default function Bannercarrousel(props){
     return(
         <section className='banner-carrousel'>
-            <Carousel cols={1} rows={1} gap={0} loop hideArrow showDots mobileBreakpoint={breakpoints} autoplay={1700}> 
+            <Carousel cols={1} rows={1} gap={0} loop hideArrow showDots mobileBreakpoint={breakpoints} autoplay={2500}> 
                 <Carousel.Item>
                      {/*importa a img na sua page e passa como parâmetro pra ca */ }
                     <a href=""><img width="100%" src={props.img} /></a>

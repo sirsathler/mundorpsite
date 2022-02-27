@@ -1,7 +1,18 @@
 .home .mundo-premium-img, .home .news,.home .shop-home{display: flex; justify-content: center; align-items: center;}
 
-/*CLASSE DO COMPONENT BANNER*/
+/*CLASSES DO COMPONENT BANNER TRATADAS LOCALMENTE, POIS A CONFIG É ESPECIFICA DESTA PAGE*/
 .home .banner-carrousel{background-color: #000;}
+
+.home .kNBmiK, .home .gcfHef, 
+.home .icdMYH, .home .bGztgW
+{margin: 0 !important;}
+
+.home .gpMqYi{top: 95%;}/*classe que movimenta as dots*/
+
+.home .qbpMB, .home .eXIdQs{width: 12px; height: 12px;}/*classe que estiliza as dots*/
+.home .eXIdQs{background-color: #236aa8;} /*quando o dot esta ativo*/
+
+/*CLASSES DO COMPONENT BANNER TRATADAS LOCALMENTE, POIS A CONFIG É ESPECIFICA DESTA PAGE*/
 
 .home .mundo-premium-img{width: 100%; height: 40vh; max-height: 250px; background-color: black;}
 .home .mundo-premium-img img{width: 30%; max-width: 600px;}
@@ -46,9 +57,11 @@
     @media screen and (max-width: 580px){
         .home .mundo-premium-img{height: 20vh;}
         .home .mundo-premium-img img{width: 60%;}
+
+        .home .gpMqYi{top: 85%;}
+        .home .qbpMB, .home .eXIdQs{width: 8px; height: 8px;}
     }
-    
-    @media screen and (max-width: 440px){.home .gpMqYi{top: 85%;}}
+
 
     @media screen and (max-width: 380px){.home .news h2{font-size: 2rem;}}
 }
