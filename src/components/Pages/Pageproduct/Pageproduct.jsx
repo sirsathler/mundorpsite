@@ -7,7 +7,7 @@ import Card from '../Pageshop/Shopcards/Card.jsx'
 import Productcolor from './Productcolor.jsx'
 import Purchase from '../../Global/Buttons/Purchase'
 import Banner from '../../Global/Banner/Banner'
-import Vehicleinfo from '../../Global/Vehicleinfo'
+import Vehicleinfo from '../../Global/Vehicleinfo' 
 
 import image from '../../../images/shop/cars/DTS.png'
 import mp from '../../../images/shop/icons/mp.png'

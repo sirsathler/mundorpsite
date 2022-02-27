@@ -12,7 +12,11 @@ const Boxcolor = styled.div`
         transition: 0.5s;
     }
 
-    img{width: 20px;}
+    img{
+        width: 20px;
+        filter: ${props => props.color == '#ffffff' ? 'brightness(0)' : 'none;'}; /*mds q propriedade linda*/ 
+        /*QUANDO CLIENTE NO BRANCO MUDA A COR DA CHECK*/
+    }
 `
 export default function Productcolor(props){
     return(
