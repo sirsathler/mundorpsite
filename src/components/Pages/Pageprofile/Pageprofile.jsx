@@ -1,8 +1,6 @@
 import css from './Pageprofile.css'
 import Infosprofile from './Infosprofile/Infosprofile.jsx'
-import Garage from './Garage/Garage.jsx'
-import Heatmap from './Heatmap/Heatmap.jsx'
-import Footer from '../../Footer/Footer.jsx'
+
 import axios from 'axios'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min'

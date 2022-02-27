@@ -1,5 +1,4 @@
 import css from './Infosprofile.css'
-import Aboutplayer from './Aboutplayer/Aboutplayer.jsx'
 import axios from 'axios'
 import NotFound from '../../../Global/NotFound/NotFound'
 
