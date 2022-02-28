@@ -7,7 +7,10 @@
     margin: 10px 0;
     border-radius: 10px; 
     box-shadow: 0 0 10px 0px #d3d3d3;
+    transition: 0.5s;
 }
+
+.card-news:hover{transform: scale(1.05); transition: 0.5s;}
 
 .card-news .info-news{width: 100%; height: 50%;}
 .card-news .info-news h3{padding: 10px 0; text-align: center; font-size: 1.3rem;}

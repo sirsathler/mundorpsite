@@ -20,11 +20,13 @@ export default function Home(){
             <div className="mundo-premium-img">
                 <img src={premiumImage} alt="" />
             </div>
-            <section className="shop-home">
-                <div className="container">
-                    <p>loja oficial</p>
-                </div>
-            </section>
+            <a href="./shop" target="_blank">
+                <section className="shop-home">
+                    <div className="container">
+                        <p>loja oficial</p>
+                    </div>
+                </section>
+            </a>
             <section className="news">
                 <div className="container">
                     <h2>ultimas notícias!</h2>
