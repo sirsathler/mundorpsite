@@ -71,8 +71,8 @@ class Pageproduct extends React.Component {
                     </div>
                 </div>
                 <div className="products">
-                    <p>confira também!</p>
                     <div className="container">
+                        <p>confira também!</p>
                         <Carousel itemsToShow={3} pagination={false} breakPoints={breakPoints}>
                             <Card />
                             <Card />

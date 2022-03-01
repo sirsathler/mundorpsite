@@ -24,9 +24,27 @@
 .cashback p{font-size: 1rem; color: #808080;}
 
 .products{flex-direction: column; width: 100%; height: 500px;}
-.products p{width: 100%; margin-top: 30px; font-size: 1.7rem; text-align: center;}
+.products p{width: 100%; margin-bottom: 30px; font-size: 1.7rem; text-align: center;}
 
 .products .container{flex-wrap: wrap; width: 90%; max-width: 1000px;}
+.products .card:hover{transform: scale(1.05);}
+
+/*CONFIGS BUTTON*/
+.kDAHyg, .eEojdq {
+    width: 36px;
+    height: 36px;
+    min-width: 0;
+    line-height: 0;
+    font-size: 1.5em;
+    background-color: transparent;
+    box-shadow: 0 0 3px 0 #000;
+}
+
+.eEojdq:hover:enabled, 
+.eEojdq:focus:enabled{
+    background-color: #000;
+}
+/*CONFIGS BUTTON*/
 
 
 .imgBox{
