@@ -6,15 +6,17 @@ import Pageshop from './components/Pages/Pageshop/Pageshop.jsx'
 import Pageproduct from './components/Pages/Pageproduct/Pageproduct.jsx'
 import Footer from './components/Footer/Footer'
 import Pagevehicle from './components/Pages/Pagevehicle/Pagevehicle'
-import Pagelogin from './components/Pages/Pagelogin/Pagelogin'
+import PageHome from "./components/Pages/Pagehome/Pagehome"
+import Pagelogin from "./components/Pages/Pagelogin/Pagelogin"
 import Pageabout from './components/Pages/Pageabout/Pageabout'
+
 
 export default function App(){
     return(
         <Router>
             <div className="App">
                 <Switch>
-                    <Route path="/" exact/>
+                    <Route path="/" exact component={PageHome}/>
                     <Route path="/player" component={Pageprofile}/>
                     <Route path="/shop" component={Pageshop}/>
                     <Route path="/product" component={Pageproduct}/>
