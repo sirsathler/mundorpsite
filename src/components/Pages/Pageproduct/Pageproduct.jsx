@@ -16,7 +16,6 @@ const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
     { width: 850, itemsToShow: 3}
-
     /*SÓ FUNCIONA ASSIM E EU NAO FAÇO IDEIA DO PQ, ESSES OBJETO AINDA TA TUDO ERRADO, MAS FUNCIONA*/ 
 ];
 

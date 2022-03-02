@@ -1,0 +1,67 @@
+.home .mundo-premium-img, .home .news,.home .shop-home{display: flex; justify-content: center; align-items: center;}
+
+/*CLASSES DO COMPONENT BANNER TRATADAS LOCALMENTE, POIS A CONFIG É ESPECIFICA DESTA PAGE*/
+.home .banner-carrousel{background-color: #000;}
+
+.home .kNBmiK, .home .gcfHef, 
+.home .icdMYH, .home .bGztgW
+{margin: 0 !important;}
+
+.home .gpMqYi{top: 95%;}/*classe que movimenta as dots*/
+
+.home .qbpMB, .home .eXIdQs{width: 12px; height: 12px;}/*classe que estiliza as dots*/
+.home .eXIdQs{background-color: #236aa8;} /*quando o dot esta ativo*/
+
+/*CLASSES DO COMPONENT BANNER TRATADAS LOCALMENTE, POIS A CONFIG É ESPECIFICA DESTA PAGE*/
+
+.home .mundo-premium-img{width: 100%; height: 60vh; max-height: 400px; background-color: black;}
+.home .mundo-premium-img img{width: 50%; max-width: 600px;}
+
+.home .shop-home{
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../../images/shop/BannerP208.png");
+}
+
+.home .shop-home .container{justify-content: flex-end; align-items: flex-start;}
+.home .shop-home .container p{
+    margin: 0 0 2% 2%;
+    font-size: 4rem;
+    font-family: 'URBAN';
+    color: #fff; 
+}
+
+.home .news{margin-top: 25px;}
+.home .news .container{flex-direction: column; width: 1100px;}
+.home .news h2{font-size: 3rem; margin-bottom: 50px;}
+
+@media screen {
+    @media screen and (max-width: 980px){
+        .home .shop-home{height: 400px;}
+        .home .gpMqYi{top: 90%;}
+
+        .home .mundo-premium-img{height: 30vh;}
+        .home .mundo-premium-img img{width: 40%;}
+
+        .home .shop-home .container p{font-size: 3rem;}
+    }
+
+    @media screen and (max-width: 660px){
+        .home .shop-home{height: 280px;}
+        .home .shop-home .container p{font-size: 2rem;}
+    }
+
+    @media screen and (max-width: 580px){
+        .home .mundo-premium-img{height: 30vh;}
+        .home .mundo-premium-img img{width: 60%;}
+
+        .home .gpMqYi{top: 85%;}
+        .home .qbpMB, .home .eXIdQs{width: 8px; height: 8px;}
+    }
+
+
+    @media screen and (max-width: 380px){.home .news h2{font-size: 2rem;}}
+}

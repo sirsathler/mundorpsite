@@ -25,13 +25,15 @@ const Boxcolor = styled.div`
 
 function chooseColor(){
     let check = document.getElementById('checkColor');
-    check.style.display = 'none'
+    check.style.borderRadius = '15px'
+    check.style.width = '55px'
+    check.style.height = '55px'
 }
 
 export default function Productcolor(props){
     return(
-        <Boxcolor onClick={chooseColor} color={props.color}>
-            {/* <img id='checkColor' src={checkImage} alt="" /> */}
+        <Boxcolor id='checkColor' onClick={chooseColor} color={props.color}>
+
         </Boxcolor>
     )
 }
