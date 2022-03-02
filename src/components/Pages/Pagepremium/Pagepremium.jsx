@@ -1,7 +1,7 @@
 import css from './Pagepremium.css'
 import Card from '../Pageshop/Shopcards/Card'
 
-import imageBanner from '../../../images/logo-minimalist.png'
+import imageBanner from '../../../images/logo2.png'
 import image from '../../../images/premiumshop.png'
 
 
@@ -29,7 +29,6 @@ const premium = [
     },
 ]
 
-
 export default function Pagepremium(){
     return(
         <div className= "page-premium">
@@ -39,7 +38,6 @@ export default function Pagepremium(){
                         <img className='premium-image' src={imageBanner}/>
                     </div>
                 </div>
-                <img src="" alt="" />
             </section>
             <section className= 'rewards-container'>
                 <div className= 'text-wrapper'>
