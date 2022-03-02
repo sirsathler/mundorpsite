@@ -1,0 +1,28 @@
+.member-card {
+    width: 264px;
+    height: 364px;
+    background-color: #e6e6e6;
+    border-radius: 16px;
+
+    &__image {
+        background-image: url("http://pm1.narvii.com/7087/ef84e695ebfe107a2ba1f02264ebb9e6687e6402r1-404-550v2_uhq.jpg");
+        height: 70%;
+        border-radius: 16px 16px 0 0;
+    }
+    &__info {
+        text-align: center;
+        &--name {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        &--description {
+            color: #b3b3b3;
+            font-size: 20px;
+        }
+        &--job {
+            color: #2a72c4;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
