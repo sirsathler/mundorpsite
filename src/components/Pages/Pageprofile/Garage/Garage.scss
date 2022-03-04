@@ -1,0 +1,16 @@
+.garage-container{
+    // height: 600px;
+    width: 100%;
+    // background-color: aqua;
+    background-image: url('../.././../../images/vehicle/Wallpaper.png');
+    
+    .garage-container__title{
+        color: rgb(255, 255, 255);
+        font-size: 56px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+   
+    }
+}
