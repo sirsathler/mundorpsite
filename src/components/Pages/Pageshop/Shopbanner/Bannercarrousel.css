@@ -1,17 +1,16 @@
 .banner-carrousel{display: flex; justify-content: center; align-items: center;}
 
-.banner-carrousel img{
-
-}
+.banner-carrousel{height: auto;}
 .banner-carrousel a{display: inline-block; width: 100%;}
 
 .kNBmiK, .gcfHef, .icdMYH, .bGztgW{margin: 0  0 10px 0 !important;}
 
 @media screen {
-    
     @media screen and (max-width: 768px){
         .jACDzE{
             grid-template-columns: repeat(3,100%) !important;
         }
     }
 }
+
+/*CASO PRECISE DE CONFIGS ESPECIFICAS PARA CADA PAGINA QUE USAR ESTE COMPONENTE, SERÁ NECESSÁRIO MODIFICAR NO CSS DA PAGE, E NAO AQUI, AQUI É APENAS O PADRÃO. BY RIVALDO 27/02/2022*/

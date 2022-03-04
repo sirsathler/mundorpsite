@@ -1,0 +1,59 @@
+.card-news{display: flex; justify-content: center; align-items: center;}
+
+.card-news{
+    flex-direction: column;
+    width: 330px; 
+    height: 280px;
+    margin: 10px 0;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px 0px #d3d3d3;
+    transition: 0.5s;
+}
+
+.card-news:hover{transform: scale(1.05); transition: 0.5s;}
+
+.card-news .info-news{width: 100%; height: 50%;}
+.card-news .info-news h3{padding: 10px 0; text-align: center; font-size: 1.3rem;}
+.card-news .info-news p{padding: 0 20px; text-align: justify; font-size: 0.9rem;}
+
+.card-news .image-news{width: 100%; height: 50%;}
+
+/***********************CONFIGS ELASTIC CAROUSEL***********************/
+
+.kDAHyg,.eEojdq{
+    /*estilizando os botoes*/
+    width: 30px; 
+    height: 30px;
+    min-width: 0;
+    line-height: 30px;
+}
+
+.eEojdq:hover:enabled, .eEojdq:focus:enabled{
+    background-color: #297CDB;
+    color: #fff;
+    box-shadow: none;
+}
+
+.dGeqsn{
+    background-color: #fff; 
+    box-shadow: 0 0 2px rgb(80, 80, 80);
+}
+
+.jVhXZM{
+    background-color: #ccc;
+    color: #fff;
+    box-shadow: none;
+}
+
+.jVhXZM:hover, .jVhXZM:focus,
+.dGeqsn:hover, .dGeqsn:focus{
+    box-shadow: 0 0 2px 0 #1a1a1a;
+}
+
+@media screen {
+    @media screen and (max-width: 380px){
+        .card-news{width: 220px;}
+        .card-news .info-news h3{font-size: 1.1rem;}
+        .card-news .info-news p{font-size: 0.8rem;}
+    }
+}
