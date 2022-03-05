@@ -1,28 +1,52 @@
 .member-card {
-    width: 264px;
-    height: 364px;
+    width: 232px;
+    height: 332px;
     background-color: #e6e6e6;
     border-radius: 16px;
-
+    position: relative;
+    margin: 8px;
+    
     &__image {
-        background-image: url("http://pm1.narvii.com/7087/ef84e695ebfe107a2ba1f02264ebb9e6687e6402r1-404-550v2_uhq.jpg");
+        overflow: hidden;
         height: 70%;
         border-radius: 16px 16px 0 0;
+
+        img{
+            width: 100%;
+        }
     }
     &__info {
         text-align: center;
         &--name {
             font-size: 25px;
+            margin-top: 8px;
             font-weight: bolder;
         }
         &--description {
             color: #b3b3b3;
-            font-size: 20px;
+            font-size: 16px;
         }
         &--job {
             color: #2a72c4;
             font-size: 15px;
             font-weight: 600;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding-bottom: 8px;
         }
     }
 }
+
+// @media screen and (max-width: 1024px){
+// .cards-wrapper {
+//     grid-template-columns: repeat(2, auto);
+// }
+// }
+
+// @media screen and (max-width: 600px){
+// .cards-wrapper {
+//     grid-template-columns: (1, auto);
+// }
+// }

@@ -1,0 +1,33 @@
+.highlight{
+    color: #0072cf;
+    font-weight: 600;
+}
+.page-members {
+    background-color: white;
+
+    &__title{
+        padding: 40px;
+        &--main{
+            padding: 72px;
+        }
+    }
+}
+
+.members-text {
+    text-align: center;
+    font-size: 40px;
+}
+.cards-container{
+    background-color: #1a1a1a;
+    .card-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.members-subtext {
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+
+
