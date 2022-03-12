@@ -37,8 +37,6 @@
 
 .debts-overview .debts-box .pay-debts{width: 100%; margin-top: 10px;}
 
-.debts-overview .debts-box .pay-debts .button-purchase{width: 100%;}
-
 .debts-overview .debts-box .doubts{justify-content: flex-end; width: 100%;}
 .debts-overview .debts-box .doubts p{margin-top: 5px; font-size: 1.2rem; color: #bababa; cursor: pointer;}
 

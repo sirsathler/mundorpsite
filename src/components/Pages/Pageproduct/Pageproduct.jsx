@@ -48,7 +48,7 @@ export default function Pageproduct(){
                         <p>550</p>
                     </div>
                     <div className="content-button">
-                        <Purchase text="Comprar" img={mp}/>
+                        <Purchase text="Comprar" value="Confirmar compra" img={mp}/>
                     </div>
                     <div className="cashback"><p>você poderá pedir reembolso em ate x horas spós a confirmação do pagamento</p></div>
                 </div>

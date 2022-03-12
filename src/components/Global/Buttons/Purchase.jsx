@@ -9,12 +9,12 @@ import image from '../../../images/shop/cars/DTS.png'
 export default function Purchase(props){
     
     const [isModalVisible, setIsModalVisible] = useState(false);
-
+    
     return(
         <div>
-            <input onClick={() => setIsModalVisible(true)} 
+            <input type="button" onClick={() => setIsModalVisible(true)} 
             className='button-purchase' value={props.text}/>
-            {isModalVisible ? <Modal img={image}
+            {isModalVisible ? <Modal text={props.value} img={image}
             onClose={() => setIsModalVisible(false)}/> 
             : null}
         </div>

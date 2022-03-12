@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from 'react'
 
 import css from "./Modal.css"
 import img from "../../../images/icons/mp.png"
-
-import Purchase from "../Buttons/Purchase"
+import ShopFinished from './Shopfinished';
 
 export default function Modal(props){
+
+    const [isShopFinishedVisible, setIsShopFinishedVisible] = useState(false);
+
+
+    function teste(props){
+        setIsShopFinishedVisible(true)
+    }
 
     return(
         <div className="process-modal">
@@ -38,7 +44,11 @@ export default function Modal(props){
                                     <p>-1.000</p>
                                 </div>
                             </div>
-                            <Purchase text="confirmar compra"/>
+                            <input type="button" id='call-modal' className="button-purchase" value={props.text} onClick={teste}
+                            />
+                            {isShopFinishedVisible ? <ShopFinished text={props.value}
+                            onClose={() => setIsShopFinishedVisible(false)}/>
+                            : null }
                         </div>
                     </div>
                 </div>
