@@ -2,14 +2,18 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/779ae9dc3318503f9abc9ea6804b2f31d0fd84e807eb8a8851185cb2b6092af2._V_SX1080_.jpg');
+    height: 320px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.page-blog .blog-banner img{height: 344px;}
 
 .page-blog  .blog-post{
     display: flex;
     justify-content: center;
     height: 800px;
-    margin-top: 50px;
+    padding: 160px;
 }
 
 .page-blog .blog-post .container{

@@ -4,7 +4,6 @@ export default function Pageblog(){
     return(
         <div className='page-blog'>
             <section className= 'blog-banner'>
-                <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/779ae9dc3318503f9abc9ea6804b2f31d0fd84e807eb8a8851185cb2b6092af2._V_SX1080_.jpg" alt="" />
             </section>
             
             <section className= 'blog-post'>
