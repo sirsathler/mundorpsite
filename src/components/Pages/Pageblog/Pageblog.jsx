@@ -4,6 +4,7 @@ export default function Pageblog(){
     return(
         <div className='page-blog'>
             <section className= 'blog-banner'>
+                
             </section>
             
             <section className= 'blog-post'>
@@ -15,6 +16,15 @@ export default function Pageblog(){
                         Omnis, recusandae, cumque doloremque corporis est repellendus blanditiis 
                         dolorem possimus quaerat qui exercitationem voluptatem nemo sit, eius 
                         consectetur velit magnam illo? Magni.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, recusandae, cumque doloremque corporis est repellendus blanditiis 
+                        dolorem possimus quaerat qui exercitationem voluptatem nemo sit, eius 
+                        consectetur velit magnam illo? Magni.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, recusandae, cumque doloremque corporis est repellendus blanditiis 
+                        dolorem possimus quaerat qui exercitationem voluptatem nemo sit, eius 
+                        consectetur velit magnam illo? Magni.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     </p>
                     <p className= 'blog-author'>AUTOR</p>
                     <p className= 'blog-date'>00/00/0000</p>

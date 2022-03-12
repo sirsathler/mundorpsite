@@ -12,13 +12,14 @@
 .page-blog  .blog-post{
     display: flex;
     justify-content: center;
-    height: 800px;
-    padding: 160px;
+    width: 100%;
+    height: auto;
 }
 
 .page-blog .blog-post .container{
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 2%;
 }
 
 .page-blog .blog-title{font-size: 70px;}
