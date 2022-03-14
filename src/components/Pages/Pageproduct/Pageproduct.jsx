@@ -19,6 +19,7 @@ const breakPoints = [
     /*SÓ FUNCIONA ASSIM E EU NAO FAÇO IDEIA DO PQ, ESSES OBJETO AINDA TA TUDO ERRADO, MAS FUNCIONA*/ 
 ];
 
+
 export default function Pageproduct(){
     return(
         <section className="page-product">
