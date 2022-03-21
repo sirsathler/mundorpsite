@@ -1,0 +1,53 @@
+.member-card {
+    width: 232px;
+    height: 332px;
+    background-color: #e6e6e6;
+    border-radius: 16px;
+    position: relative;
+    margin: 8px;
+    
+    &__image {
+        overflow: hidden;
+        height: 70%;
+        border-radius: 16px 16px 0 0;
+
+        img{
+            width: 100%;
+        }
+    }
+    &__info {
+        text-align: center;
+        &--name {
+            font-size: 25px;
+            margin-top: 8px;
+            font-weight: bolder;
+        }
+        &--description {
+            color: #b3b3b3;
+            font-size: 16px;
+            padding: 0 8px;
+        }
+        &--job {
+            color: #2a72c4;
+            font-size: 15px;
+            font-weight: 600;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding-bottom: 8px;
+        }
+    }
+}
+
+// @media screen and (max-width: 1024px){
+// .cards-wrapper {
+//     grid-template-columns: repeat(2, auto);
+// }
+// }
+
+// @media screen and (max-width: 600px){
+// .cards-wrapper {
+//     grid-template-columns: (1, auto);
+// }
+// }
