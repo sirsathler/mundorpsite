@@ -1,4 +1,4 @@
-import css from './Pageblog.css'
+import css from './Pageblog.scss'
 
 export default function Pageblog(){
     return(
@@ -9,9 +9,9 @@ export default function Pageblog(){
             
             <section className= 'blog-post'>
                 <div className="container">
-                    <h1 className= 'blog-title'>TÍTULO</h1>
-                    <h2 className= 'blog-subtitle'>SUBTÍTULO</h2>
-                    <p className= 'blog-text'>
+                    <h1 className= 'blog-post__title'>TÍTULO</h1>
+                    <h2 className= 'blog-post__subtitle'>SUBTÍTULO</h2>
+                    <p className= 'blog-post__text'>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Omnis, recusandae, cumque doloremque corporis est repellendus blanditiis 
                         dolorem possimus quaerat qui exercitationem voluptatem nemo sit, eius 
@@ -26,8 +26,8 @@ export default function Pageblog(){
                         consectetur velit magnam illo? Magni.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     </p>
-                    <p className= 'blog-author'>AUTOR</p>
-                    <p className= 'blog-date'>00/00/0000</p>
+                    <p className= 'blog-post__author'>AUTOR</p>
+                    <p className= 'blog-post__date'>00/00/0000</p>
                 </div>
             </section>
         </div>
