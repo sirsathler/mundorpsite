@@ -30,7 +30,7 @@
 }
 
 .page-blog .blog-text{
-    text-align: center;
+    text-align: justify;
     font-size: 17px;
     color: #7c7b7b;
 }
@@ -38,6 +38,7 @@
 .page-blog  .blog-author{
     font-size: 20px;
     color: #7c7b7b;
+    margin-top: 16px;
 }
 
 .page-blog .blog-date{
