@@ -1,0 +1,44 @@
+.about-banner {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mundo-banner{  
+    background-image: url("../../../images/about/banner-mundo.png");
+    
+}
+#police-banner{
+    background-image: url("../../../images/about/banner-police.png");
+    
+}
+
+#thief-banner{
+    background-image: url("../../../images/about/banner-thief.png");
+    
+}
+.about-info {
+    background-color: whitesmoke;
+    padding: 110px 20px;
+}
+.about-text {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.about-subtext {
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:768px) {
+    .about-text{
+        font-size: 30px;
+    }
+    .about-subtext{
+        font-size: 20px;
+    }
+}
